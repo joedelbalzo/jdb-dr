@@ -59,10 +59,14 @@ const NavBar = () => {
               Dawn Ryan
             </Link>
           </div>
+
+          {/* <div className="container"> */}
           <div className="underline">
-            <img src={redUnderline} />
+            <img className="reveal-image" src={redUnderline} />
           </div>
         </div>
+        {/* </div> */}
+
         <div className="menuItems" id="large">
           <Link to="/about">
             <div className="menuItems-second-child">About</div>

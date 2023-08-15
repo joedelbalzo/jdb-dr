@@ -18665,7 +18665,7 @@ const About = () => {
     className: "about-image"
   }, "maybe an image here?"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "about-paragraph"
-  }, "\t", " With a rich history in publishing, from to Marketing Coordinator at Simon & Schuster to Executive Managing Editor at Macmillan, I've honed my skills in editing, proofreading, and publishing. My career has given me the chance to work with bestselling authors, celebrity tie-ins, and the latest digital systems for project management. I bring a decade of industry experience to your manuscript, ensuring your words shine. Certified in Copyediting, Proofreading, and Fact-Checking by New York University, I'm ready to make your writing stand out!")));
+  }, "With a rich history in publishing, from to Marketing Coordinator at Simon & Schuster to Executive Managing Editor at Macmillan, I've honed my skills in editing, proofreading, and publishing. My career has given me the chance to work with bestselling authors, celebrity tie-ins, and the latest digital systems for project management. I bring a decade of industry experience to your manuscript, ensuring your words shine. Certified in Copyediting, Proofreading, and Fact-Checking by New York University, I'm ready to make your writing stand out!")));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);
 
@@ -19040,6 +19040,7 @@ const NavBar = () => {
   }, "Dawn Ryan")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "underline"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+    className: "reveal-image",
     src: _assets_redunderline_png__WEBPACK_IMPORTED_MODULE_6__["default"]
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "menuItems",
@@ -19170,7 +19171,7 @@ const Services = () => {
       border: "10px solid red",
       textAlign: "center"
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", null, "Services")));
+  }, "Copy Editing: Comprehensive editing for grammar, style, consistency, and clarity. Proofreading: Attention to detail that catches those last-minute errors and typos. Fact-Checking: Ensuring the accuracy of your content. Digital Publishing Consulting: Advice and guidance on publishing ebooks and utilizing tools like InDesign and Photoshop. Social Media Marketing Support: Assistance in marketing your content through various social media channels.", " "));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Services);
 

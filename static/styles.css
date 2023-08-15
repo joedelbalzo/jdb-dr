@@ -45,12 +45,31 @@ nav > .nameDivContainer {
   line-height: 0;
 }
 
+nav > .nameDivContainer > .underline {
+  overflow: hidden;
+  position: relative;
+}
 nav > .nameDivContainer > .underline > img {
-  width: calc(200px + 10vw);
   height: 25px;
-  margin-top: -10px;
   filter: brightness(10%) invert(100%);
 }
+
+@keyframes reveal {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+.reveal-image {
+  width: calc(200px + 5vw);
+  height: 100%;
+  animation: reveal 0.5s ease-in forwards;
+  filter: brightness(10%) invert(100%);
+}
+
 nav > .nameDivContainer > .name {
   margin: auto;
   font-size: calc(16px + 3.5vw);
