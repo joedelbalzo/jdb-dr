@@ -13,12 +13,12 @@ function Contact() {
   return (
     <form className="main-form" onSubmit={handleSubmit}>
       <label htmlFor="email">Email Address:</label>
-      <input id="email" type="email" name="email" />
+      <input id="email" type="email" name="email" placeholder="you@example.com" />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
       <label htmlFor="subject">Subject:</label>
-      <input id="subject" type="subject" name="subject" />
+      <input id="subject" type="subject" name="subject" placeholder="Subject" />
       <label htmlFor="message">Message:</label>
-      <textarea id="message" name="message" />
+      <textarea id="message" name="message" placeholder="Your message" />
       <ValidationError prefix="Message" field="message" errors={state.errors} />
       <button type="submit" disabled={state.submitting}>
         Submit

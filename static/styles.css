@@ -202,21 +202,27 @@ nav > .menuItems > *:hover,
 
 .main-form > textarea,
 .main-form > input {
+  box-shadow: none;
+  outline: none;
+  border: none;
   padding: 1rem;
   margin: 1rem auto;
   width: 80%;
   background-color: rgba(230, 230, 230, 0.8);
-  border: 2px solid rgba(50, 80, 250, 0.5);
+  outline: 1px solid rgba(50, 80, 250, 0.5);
   border-radius: 0.5rem;
+  font-family: inherit;
 }
-.main-form > textarea:active,
-.main-form > input:active {
+.main-form > textarea:focus,
+.main-form > input:focus {
+  outline: none;
   padding: 1rem;
   margin: 1rem auto;
   width: 80%;
   background-color: rgba(230, 230, 230, 0.8);
-  border: 8px solid rgba(100, 80, 200, 0.8);
+  outline: 3px solid rgba(100, 80, 200, 0.8);
   border-radius: 0.5rem;
+  /* transition: outline 0.2s ease; */
 }
 
 .main-form > textarea {
@@ -225,6 +231,7 @@ nav > .menuItems > *:hover,
 
 .main-form > button {
   font-size: calc(10px + 1vw);
+  font-weight: 350;
   padding: 1rem;
   margin: 1rem auto;
   width: 30%;
@@ -343,24 +350,17 @@ nav > .menuItems > *:hover,
     width: 90vw;
   }
   .about > .about-image-container {
-    width: 150px;
-    overflow: hidden;
-    height: fit-content;
-    border-radius: 0.5rem;
-    margin: 1rem auto;
-    position: sticky;
-    top: 10%;
+    display: none;
   }
   .about > .about-image-container > .about-image {
     width: 150px;
   }
 
   .about > .about-paragraph {
-    flex: 1 1 80%;
     margin: 0.5rem;
     font-size: calc(12px + 2vw);
     font-weight: 350;
-    line-height: 1.5rem;
+    line-height: 1.7rem;
     text-indent: 1rem;
     text-align: left;
   }

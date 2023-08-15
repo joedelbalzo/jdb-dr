@@ -10,9 +10,9 @@ const About = () => {
           <img className="about-image" src={wall} />
         </div>
         <div className="about-paragraph">
-          <h2 style={{ textIndent: 0, margin: "4px" }}>About Dawn Ryan</h2>
+          {/* <h2 style={{ textIndent: 0, margin: "4px" }}>About Dawn Ryan</h2> */}
           <p>
-            A seasoned professional in the publishing industry, Dawn Ryan brings over a decade of
+            A seasoned professional in the publishing industry, Dawn brings over a decade of
             experience to the table. With tenures at renowned publishing houses such as Penguin
             Random House, Simon & Schuster, and Macmillan, she has honed her skills in publishing
             and management.

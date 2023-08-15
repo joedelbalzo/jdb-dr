@@ -19522,12 +19522,7 @@ const About = () => {
     src: _assets_wall_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "about-paragraph"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
-    style: {
-      textIndent: 0,
-      margin: "4px"
-    }
-  }, "About Dawn Ryan"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "A seasoned professional in the publishing industry, Dawn Ryan brings over a decade of experience to the table. With tenures at renowned publishing houses such as Penguin Random House, Simon & Schuster, and Macmillan, she has honed her skills in publishing and management."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Currently a Senior Managing Editor at Macmillan, Dawn has overseen the publication of over fifty novels and picture books annually. She has spearheaded key initiatives like the creation of MCPG's house style guide and has run production meetings across departments. She's also a Freelance Copyeditor and Proofreader for Lonely Planet, working on projects like Lonely Planet Kids National Parks books."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Beyond her publishing roles, Dawn is an advocate for diversity and inclusion, a skilled community service volunteer, and conversant in French and Spanish. She holds a Bachelor of Arts in Writing, Media, and Communications from the University of Rochester and is certified in Copyediting, Proofreading, and Fact-Checking by New York University."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Dawn's unique blend of creativity, leadership, and hands-on experience makes her an exceptional choice for all your publishing needs."))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "A seasoned professional in the publishing industry, Dawn brings over a decade of experience to the table. With tenures at renowned publishing houses such as Penguin Random House, Simon & Schuster, and Macmillan, she has honed her skills in publishing and management."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Currently a Senior Managing Editor at Macmillan, Dawn has overseen the publication of over fifty novels and picture books annually. She has spearheaded key initiatives like the creation of MCPG's house style guide and has run production meetings across departments. She's also a Freelance Copyeditor and Proofreader for Lonely Planet, working on projects like Lonely Planet Kids National Parks books."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Beyond her publishing roles, Dawn is an advocate for diversity and inclusion, a skilled community service volunteer, and conversant in French and Spanish. She holds a Bachelor of Arts in Writing, Media, and Communications from the University of Rochester and is certified in Copyediting, Proofreading, and Fact-Checking by New York University."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Dawn's unique blend of creativity, leadership, and hands-on experience makes her an exceptional choice for all your publishing needs."))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);
 
@@ -19625,7 +19620,8 @@ function Contact() {
   }, "Email Address:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     id: "email",
     type: "email",
-    name: "email"
+    name: "email",
+    placeholder: "you@example.com"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_formspree_react__WEBPACK_IMPORTED_MODULE_2__.ValidationError, {
     prefix: "Email",
     field: "email",
@@ -19635,12 +19631,14 @@ function Contact() {
   }, "Subject:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
     id: "subject",
     type: "subject",
-    name: "subject"
+    name: "subject",
+    placeholder: "Subject"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("label", {
     htmlFor: "message"
   }, "Message:"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("textarea", {
     id: "message",
-    name: "message"
+    name: "message",
+    placeholder: "Your message"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_formspree_react__WEBPACK_IMPORTED_MODULE_2__.ValidationError, {
     prefix: "Message",
     field: "message",
