@@ -117,32 +117,32 @@ const NavBar = () => {
               }}
             >
               <MenuItem key={"home"} onClick={scrollToTop}>
-                <Typography textAlign="center" id="links">
-                  <Link offset="10" to="/" id="links">
-                    Home
-                  </Link>
-                </Typography>
+                {/* <Typography textAlign="center" id="links"> */}
+                <Link offset="10" to="/" id="links">
+                  Home
+                </Link>
+                {/* </Typography> */}
               </MenuItem>
               <MenuItem key={"portfolio"}>
-                <Typography textAlign="center">
-                  <Link offset="10" to="/about" id="links">
-                    About
-                  </Link>
-                </Typography>
+                {/* <Typography textAlign="center"> */}
+                <Link offset="10" to="/about" id="links">
+                  About
+                </Link>
+                {/* </Typography> */}
               </MenuItem>
               <MenuItem key={"services"}>
-                <Typography textAlign="center">
-                  <Link offset="10" to="/services" id="links">
-                    Services
-                  </Link>
-                </Typography>
+                {/* <Typography textAlign="center"> */}
+                <Link offset="10" to="/services" id="links">
+                  Services
+                </Link>
+                {/* </Typography> */}
               </MenuItem>
               <MenuItem key={"contact"}>
-                <Typography textAlign="center" id="links">
-                  <Link offset="10" to="/contact" id="links">
-                    Contact
-                  </Link>
-                </Typography>
+                {/* <Typography textAlign="center" id="links"> */}
+                <Link offset="10" to="/contact" id="links">
+                  Contact
+                </Link>
+                {/* </Typography> */}
               </MenuItem>
             </Menu>
           </Box>

@@ -170,8 +170,7 @@ nav > .menuItems > *:hover,
 .services {
   color: rgb(220, 240, 255);
   font-weight: 300;
-  display: flex;
-  justify-content: space-around;
+  font-size: calc(14px + 1vw);
   flex: 1 1 100%;
   width: 80vw;
   margin: auto;
@@ -182,8 +181,9 @@ nav > .menuItems > *:hover,
 }
 .nested-list {
   list-style-type: none;
-  margin-left: 1rem;
+  margin-left: 5%;
   margin-bottom: 1rem;
+  font-size: calc(12px + 1vw);
 }
 
 .main-form {
@@ -338,6 +338,46 @@ nav > .menuItems > *:hover,
     cursor: pointer;
     box-shadow: 2px 2px 4px white;
   }
+
+  .about {
+    width: 90vw;
+  }
+  .about > .about-image-container {
+    width: 150px;
+    overflow: hidden;
+    height: fit-content;
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+    position: sticky;
+    top: 10%;
+  }
+  .about > .about-image-container > .about-image {
+    width: 150px;
+  }
+
+  .about > .about-paragraph {
+    flex: 1 1 80%;
+    margin: 0.5rem;
+    font-size: calc(12px + 2vw);
+    font-weight: 350;
+    line-height: 1.5rem;
+    text-indent: 1rem;
+    text-align: left;
+  }
+
+  .about-paragraph > h2 {
+    text-align: center;
+  }
+
+  .services {
+    color: rgb(220, 240, 255);
+    font-weight: 325;
+    flex: 1 1 100%;
+    width: 90vw;
+
+    margin: auto;
+  }
+
   .main-form {
     width: 70%;
   }

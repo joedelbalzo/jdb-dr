@@ -39,26 +39,26 @@ const Services = () => {
           <li>
             Custom Services:
             <li className="nested-list">
-              Every project is unique. I offer bespoke services tailored to your needs, from
-              managing large-scale book publications to specialized consulting in children’s
-              publishing programs.
+              Every project is unique. I offer services tailored to your needs, from managing
+              large-scale book publications to specialized consulting in children’s publishing
+              programs.
             </li>
           </li>
-          <div
-            style={{
-              margin: "auto",
-              textAlign: "center",
-              marginTop: "1rem",
-              fontSize: "calc(14px + 1vw)",
-            }}
-          >
-            Please feel free to{" "}
-            <Link id="links" style={{ textDecoration: "underline" }} to="/contact">
-              contact me
-            </Link>{" "}
-            to discuss how I can contribute to your project's success!
-          </div>
         </ul>
+        <div
+          style={{
+            margin: "auto",
+            textAlign: "center",
+            marginTop: "1rem",
+            fontSize: "calc(14px + 1vw)",
+          }}
+        >
+          Please feel free to{" "}
+          <Link id="links" style={{ textDecoration: "underline" }} to="/contact">
+            contact me
+          </Link>{" "}
+          to discuss how I can contribute to your project's success!
+        </div>
       </div>
     </FadeComponent>
   );
