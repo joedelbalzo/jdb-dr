@@ -117,26 +117,32 @@ const NavBar = () => {
               }}
             >
               <MenuItem key={"home"} onClick={scrollToTop}>
-                <Typography textAlign="center">Home</Typography>
-              </MenuItem>
-              <MenuItem key={"services"}>
-                <Typography textAlign="center">
-                  <Link offset="10" href="#services">
-                    Services
+                <Typography textAlign="center" id="links">
+                  <Link offset="10" to="/" id="links">
+                    Home
                   </Link>
                 </Typography>
               </MenuItem>
               <MenuItem key={"portfolio"}>
                 <Typography textAlign="center">
-                  <Link offset="10" href="#portfolio">
-                    Portfolio
+                  <Link offset="10" to="/about" id="links">
+                    About
+                  </Link>
+                </Typography>
+              </MenuItem>
+              <MenuItem key={"services"}>
+                <Typography textAlign="center">
+                  <Link offset="10" to="/services" id="links">
+                    Services
                   </Link>
                 </Typography>
               </MenuItem>
               <MenuItem key={"contact"}>
-                <Link offset="10" href="#contact">
-                  <Typography textAlign="center">Contact</Typography>
-                </Link>
+                <Typography textAlign="center" id="links">
+                  <Link offset="10" to="/contact" id="links">
+                    Contact
+                  </Link>
+                </Typography>
               </MenuItem>
             </Menu>
           </Box>

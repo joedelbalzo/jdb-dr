@@ -140,15 +140,18 @@ nav > .menuItems > *:hover,
   justify-content: space-around;
   flex: 1 1 100%;
   width: 80vw;
-  margin: auto;
+  margin: 1rem auto;
 }
-.about > .about-image {
-  width: 160px;
-  height: 320px;
-  border: 1px solid white;
+.about > .about-image-container {
+  width: 250px;
+  /* height: max-content; */
+  overflow: hidden;
   border-radius: 0.5rem;
   margin: 1rem auto;
-  flex: 1 1 30%;
+}
+.about > .about-image-container > .about-image {
+  width: 250px;
+  /* height: max-content; */
 }
 
 .about > .about-paragraph {
@@ -162,6 +165,86 @@ nav > .menuItems > *:hover,
   color: rgb(220, 240, 255);
   text-align: left;
   hyphens: auto;
+}
+
+.services {
+  color: rgb(220, 240, 255);
+  font-weight: 300;
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 100%;
+  width: 80vw;
+  margin: auto;
+}
+
+.services > ul {
+  list-style-type: circle;
+}
+.nested-list {
+  list-style-type: none;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.main-form {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 50%;
+  background-color: rgba(200, 200, 200, 0.3);
+  border: 2px solid rgba(100, 80, 200, 0.8);
+  box-shadow: 5px 4px 4px rgba(230, 230, 230, 0.2);
+  border-radius: 0.5rem;
+  color: white;
+  font-size: calc(12px + 1vw);
+}
+
+.main-form > textarea,
+.main-form > input {
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 80%;
+  background-color: rgba(230, 230, 230, 0.8);
+  border: 2px solid rgba(50, 80, 250, 0.5);
+  border-radius: 0.5rem;
+}
+.main-form > textarea:active,
+.main-form > input:active {
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 80%;
+  background-color: rgba(230, 230, 230, 0.8);
+  border: 8px solid rgba(100, 80, 200, 0.8);
+  border-radius: 0.5rem;
+}
+
+.main-form > textarea {
+  height: 4rem;
+}
+
+.main-form > button {
+  font-size: calc(10px + 1vw);
+  padding: 1rem;
+  margin: 1rem auto;
+  width: 30%;
+  background-color: rgba(230, 230, 230, 0.8);
+  border: 2px solid rgba(50, 80, 250, 0.5);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.main-form > button:hover {
+  font-size: calc(10px + 1vw);
+  color: white;
+  border: 2px solid rgba(230, 230, 230, 0.8);
+  background-color: rgba(50, 80, 250, 0.2);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+#links {
+  text-decoration: none;
+  color: inherit;
 }
 
 /* ///////////////////////////////////////// */
@@ -254,5 +337,8 @@ nav > .menuItems > *:hover,
     border-radius: 12px;
     cursor: pointer;
     box-shadow: 2px 2px 4px white;
+  }
+  .main-form {
+    width: 70%;
   }
 }
