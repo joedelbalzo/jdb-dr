@@ -8,7 +8,7 @@ import { useForm, ValidationError } from "@formspree/react";
 function Contact() {
   const [state, handleSubmit] = useForm("mgejadwz");
   if (state.succeeded) {
-    return <p>Thank you! I'll be in touch shortly.</p>;
+    return <div className="after-submit">Thank you! I'll be in touch shortly.</div>;
   }
   return (
     <form className="main-form" onSubmit={handleSubmit}>

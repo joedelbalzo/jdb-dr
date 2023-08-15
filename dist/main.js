@@ -19610,7 +19610,9 @@ __webpack_require__.r(__webpack_exports__);
 function Contact() {
   const [state, handleSubmit] = (0,_formspree_react__WEBPACK_IMPORTED_MODULE_2__.useForm)("mgejadwz");
   if (state.succeeded) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Thank you! I'll be in touch shortly.");
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "after-submit"
+    }, "Thank you! I'll be in touch shortly.");
   }
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
     className: "main-form",

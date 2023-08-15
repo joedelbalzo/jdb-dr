@@ -249,6 +249,13 @@ nav > .menuItems > *:hover,
   cursor: pointer;
 }
 
+.after-submit {
+  padding: 1rem;
+  color: rgb(220, 240, 255);
+  margin: 1rem auto;
+  text-align: center;
+}
+
 #links {
   text-decoration: none;
   color: inherit;
