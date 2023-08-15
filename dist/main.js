@@ -19787,11 +19787,20 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const Icons = () => {
+  const handleFacebookClick = e => {
+    e.preventDefault();
+
+    // const appUrl = "fb://dawn.ryan.908/3704996";
+    // window.open(appUrl, "_blank");
+
+    setTimeout(() => {
+      window.open("https://www.facebook.com/dawn.ryan.908", "_blank");
+    }, 500);
+  };
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "social-media-icons"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "https://www.facebook.com/dawn.ryan.908",
-    target: "_blank",
+    onClick: handleFacebookClick,
     rel: "noopener noreferrer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_icons_material_Facebook__WEBPACK_IMPORTED_MODULE_1__["default"], {
     fontSize: "large"
@@ -19962,25 +19971,29 @@ const NavBar = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, {
     offset: "10",
     to: "/",
-    id: "links"
+    id: "links",
+    onClick: handleCloseNavMenu
   }, "Home")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_12__["default"], {
     key: "portfolio"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, {
     offset: "10",
     to: "/about",
-    id: "links"
+    id: "links",
+    onClick: handleCloseNavMenu
   }, "About")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_12__["default"], {
     key: "services"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, {
     offset: "10",
     to: "/services",
-    id: "links"
+    id: "links",
+    onClick: handleCloseNavMenu
   }, "Services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_12__["default"], {
     key: "contact"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, {
     offset: "10",
     to: "/contact",
-    id: "links"
+    id: "links",
+    onClick: handleCloseNavMenu
   }, "Contact")))))), width <= 600 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     src: _assets_books_jpg__WEBPACK_IMPORTED_MODULE_4__["default"],
     style: {

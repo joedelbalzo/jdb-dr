@@ -117,32 +117,24 @@ const NavBar = () => {
               }}
             >
               <MenuItem key={"home"} onClick={scrollToTop}>
-                {/* <Typography textAlign="center" id="links"> */}
-                <Link offset="10" to="/" id="links">
+                <Link offset="10" to="/" id="links" onClick={handleCloseNavMenu}>
                   Home
                 </Link>
-                {/* </Typography> */}
               </MenuItem>
               <MenuItem key={"portfolio"}>
-                {/* <Typography textAlign="center"> */}
-                <Link offset="10" to="/about" id="links">
+                <Link offset="10" to="/about" id="links" onClick={handleCloseNavMenu}>
                   About
                 </Link>
-                {/* </Typography> */}
               </MenuItem>
               <MenuItem key={"services"}>
-                {/* <Typography textAlign="center"> */}
-                <Link offset="10" to="/services" id="links">
+                <Link offset="10" to="/services" id="links" onClick={handleCloseNavMenu}>
                   Services
                 </Link>
-                {/* </Typography> */}
               </MenuItem>
               <MenuItem key={"contact"}>
-                {/* <Typography textAlign="center" id="links"> */}
-                <Link offset="10" to="/contact" id="links">
+                <Link offset="10" to="/contact" id="links" onClick={handleCloseNavMenu}>
                   Contact
                 </Link>
-                {/* </Typography> */}
               </MenuItem>
             </Menu>
           </Box>
