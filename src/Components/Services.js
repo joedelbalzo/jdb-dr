@@ -5,52 +5,39 @@ import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <FadeComponent>
+      <h2 className="page-header">SERVICES</h2>
+      <h3 className="page-subheader">
+        Here's a list of services I offer.
+        <br />
+        If you're not sure which service you need or if it's not a service I can accommodate, please
+        contact me anyways! I would love to connect you with another incredibly talented freelancer.
+      </h3>
       <div className="services">
-        <ul>
-          <li>
-            Copyediting, Proofreading, and Fact-Checking:
-            <li className="nested-list">
-              From children's books to travel guides, my meticulous attention to detail ensures your
-              content is flawless. Past clients include Macmillan, Lonely Planet, and Fodor's.
-            </li>
-          </li>
-          <li>
-            Freelance Editorial Services:
-            <li className="nested-list">
-              Need help with your editorial workflow? I've created house style guides and
-              streamlined processes at Macmillan, overseeing publications from authors like Leigh
-              Bardugo to Sesame Street.
-            </li>
-          </li>
-          <li>
-            Publishing & Management Consulting:
-            <li className="nested-list">
-              Leverage my extensive experience at industry giants like Penguin Random House, Simon &
-              Schuster, and Macmillan to enhance your publishing and management processes.
-            </li>
-          </li>
-          <li>
-            Advertising & Social Media Management:
-            <li className="nested-list">
-              With experience running social media and managing campaigns for academic, middle
-              grade, and YA audiences, I can help your brand connect with its target audience.
-            </li>
-          </li>
-          <li>
-            Custom Services:
-            <li className="nested-list">
-              Every project is unique. I offer services tailored to your needs, from managing
-              large-scale book publications to specialized consulting in children’s publishing
-              programs.
-            </li>
-          </li>
-        </ul>
+        <div className="services-section-title">Proofreading Novels</div>
+        <div className="services-description">
+          Will return all projects under 100,000 words within 10 days. $30/hour
+        </div>
+        <div className="services-section-title">Copyediting Novels</div>
+        <div className="services-description">
+          Will return all projects under 100,000 words within 15 days. $33/hour
+        </div>
+        <div className="services-section-title">Reviewing Graphic Novels</div>
+        <div className="services-description">
+          Cold reads, art checks, and proofreading. Will return all projects under 320 pages within
+          10 days. $30/hour
+        </div>
+        <div className="services-section-title">Additional Consultation</div>
+        <div className="services-description">
+          Guidance on Management for all stages of the creative and career-building process $35/hour
+        </div>
+
         <div
           style={{
             margin: "auto",
             textAlign: "center",
             marginTop: "1rem",
             fontSize: "calc(14px + 1vw)",
+            color: "rgb(20,30,70)",
           }}
         >
           Please feel free to{" "}

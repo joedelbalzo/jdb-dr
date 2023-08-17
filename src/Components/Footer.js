@@ -8,8 +8,9 @@ const Footer = () => {
       style={{
         textAlign: "center",
         padding: "20px",
+
         fontSize: "calc(4px + 1vw)",
-        color: "rgb(220, 240, 255)",
+        color: "rgba(20, 30, 70, .5)",
       }}
     >
       © Copyright 2023 Dawn Ryan. Website designed by{" "}

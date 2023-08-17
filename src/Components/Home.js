@@ -9,14 +9,16 @@ import Contact from "./Contact";
 const Home = () => {
   return (
     <FadeComponent>
-      <div className="home-intro-paragraph">
-        Hi, I'm Dawn Ryan. In 15 years as a book professional and copy editor, I've worked with some
-        of the biggest names in publishing from bestsellers to celebrity projects.
+      <div className="home-intro-paragraph" style={{ marginBottom: "5rem" }}>
+        Hi, I’m Dawn, a professional proofreader and copyeditor with fifteen years of publishing
+        experience, from Middle Grade and YA novels, to Graphic Novels, and more.
         <br />
         <div style={{ margin: "auto", textAlign: "center", paddingTop: "1rem" }}>
           Let's make your words shine!
         </div>
       </div>
+
+      <Contact />
     </FadeComponent>
   );
 };

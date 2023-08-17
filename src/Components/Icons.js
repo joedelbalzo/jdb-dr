@@ -22,13 +22,6 @@ const Icons = () => {
       <a onClick={handleFacebookClick} rel="noopener noreferrer">
         <FacebookIcon fontSize="large" />
       </a>
-      {/* <a
-        href="https://www.instagram.com/missdawn_/?hl=en"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <InstagramIcon fontSize="large" />
-      </a> */}
       <a
         href="https://www.linkedin.com/in/dawn-ryan-7357a81b/"
         target="_blank"
