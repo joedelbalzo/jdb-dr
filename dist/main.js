@@ -20431,19 +20431,25 @@ const Icons = () => {
     onClick: handleFacebookClick,
     rel: "noopener noreferrer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_icons_material_Facebook__WEBPACK_IMPORTED_MODULE_1__["default"], {
-    fontSize: "large"
+    style: {
+      fontSize: 60
+    }
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://www.linkedin.com/in/dawn-ryan-7357a81b/",
     target: "_blank",
     rel: "noopener noreferrer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_icons_material_LinkedIn__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    fontSize: "large"
+    style: {
+      fontSize: 60
+    }
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "mailto:dawn.g.ryan@gmail.com",
     target: "_blank",
     rel: "noopener noreferrer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_icons_material_Email__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    fontSize: "large"
+    style: {
+      fontSize: 60
+    }
   })));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Icons);
