@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <FadeComponent>
-      <h2 className="page-header">SERVICES</h2>
+      <h1 className="page-header">SERVICES</h1>
       <h3 className="page-subheader">
         Here's a list of services I offer.
         <br />
