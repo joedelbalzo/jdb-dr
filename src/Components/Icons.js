@@ -1,17 +1,13 @@
 import React from "react";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
-import { Link } from "react-router-dom";
 
 const Icons = () => {
   const handleFacebookClick = (e) => {
     e.preventDefault();
-
     // const appUrl = "fb://dawn.ryan.908/3704996";
     // window.open(appUrl, "_blank");
-
     setTimeout(() => {
       window.open("https://www.facebook.com/dawn.ryan.908", "_blank");
     }, 500);

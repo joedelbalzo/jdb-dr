@@ -1,23 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import Services from "./Services";
-import About from "./About";
-import Contact from "./Contact";
 
 //mui
-import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
-import Toolbar from "@mui/material/Toolbar";
-import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
-import Paper from "@mui/material/Paper";
 
 //images
-import books from "./assets/books.jpg";
 import bookssmall from "./assets/bookssmall.jpg";
 import redUnderline from "./assets/redunderline.png";
 
@@ -34,11 +25,6 @@ const NavBar = () => {
       console.log(err);
     }
   }, []);
-
-  // useEffect(() => {
-  //   console.log(window.location.hash.slice(2));
-  //   setCurrPage(window.location.hash.slice(2));
-  // }, [anchorElNav]);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
