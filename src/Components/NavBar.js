@@ -14,6 +14,7 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
+import Paper from "@mui/material/Paper";
 
 //images
 import books from "./assets/books.jpg";
@@ -22,7 +23,8 @@ import redUnderline from "./assets/redunderline.png";
 
 const NavBar = () => {
   const [width, setWidth] = useState(0);
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
+  const [anchorElNav, setAnchorElNav] = useState(null);
+  const [currPage, setCurrPage] = useState("/");
 
   useEffect(() => {
     try {
@@ -33,7 +35,10 @@ const NavBar = () => {
     }
   }, []);
 
-  let pages = ["Services", "Portfolio", "Contact"];
+  // useEffect(() => {
+  //   console.log(window.location.hash.slice(2));
+  //   setCurrPage(window.location.hash.slice(2));
+  // }, [anchorElNav]);
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -41,6 +46,9 @@ const NavBar = () => {
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
+    setTimeout(() => {
+      setCurrPage(window.location.hash.slice(2));
+    }, 1000);
   };
 
   const scrollToTop = () => {
@@ -59,23 +67,26 @@ const NavBar = () => {
               Dawn Ryan
             </Link>
           </div>
-
-          {/* <div className="container"> */}
           <div className="underline">
             <img className="reveal-image" src={redUnderline} />
           </div>
         </div>
-        {/* </div> */}
 
         <div className="menuItems" id="large">
-          <Link to="/about">
-            <div className="menuItems-second-child">About</div>
+          <Link to="/portfolio" onClick={() => setCurrPage("portfolio")}>
+            <div className={currPage === "portfolio" ? "active" : "menuItems-first-child"}>
+              Portfolio
+            </div>
           </Link>
-          <Link to="/services">
-            <div className="menuItems-first-child">Services</div>
+          <Link to="/services" onClick={() => setCurrPage("services")}>
+            <div className={currPage === "services" ? "active" : "menuItems-second-child"}>
+              Services
+            </div>
           </Link>
-          <Link to="/contact">
-            <div className="menuItems-third-child">Contact</div>
+          <Link to="/contact" onClick={() => setCurrPage("contact")}>
+            <div className={currPage === "contact" ? "active" : "menuItems-third-child"}>
+              Contact
+            </div>
           </Link>
         </div>
         <div className="menuItems" id="small">
@@ -98,7 +109,7 @@ const NavBar = () => {
               <MenuIcon />
             </IconButton>
             <Menu
-              // id="menu-appbar"
+              id="menu-appbar"
               anchorEl={anchorElNav}
               anchorOrigin={{
                 vertical: "bottom",
@@ -111,28 +122,50 @@ const NavBar = () => {
               }}
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
+              slotProps={{ className: "menu-paper-root" }}
               sx={{
                 padding: 0,
                 display: { xs: "block", md: "none" },
+                "& .MuiPaper-root": { className: "menu-paper-root" },
               }}
             >
               <MenuItem key={"home"} onClick={scrollToTop}>
-                <Link offset="10" to="/" id="links" onClick={handleCloseNavMenu}>
+                <Link
+                  offset="10"
+                  to="/"
+                  id={currPage === "" ? "activelinks" : "links"}
+                  onClick={handleCloseNavMenu}
+                >
                   Home
                 </Link>
               </MenuItem>
               <MenuItem key={"portfolio"}>
-                <Link offset="10" to="/about" id="links" onClick={handleCloseNavMenu}>
-                  About
+                <Link
+                  offset="10"
+                  to="/portfolio"
+                  id={currPage === "portfolio" ? "activelinks" : "links"}
+                  onClick={handleCloseNavMenu}
+                >
+                  Portfolio
                 </Link>
               </MenuItem>
               <MenuItem key={"services"}>
-                <Link offset="10" to="/services" id="links" onClick={handleCloseNavMenu}>
+                <Link
+                  offset="10"
+                  to="/services"
+                  id={currPage === "services" ? "activelinks" : "links"}
+                  onClick={handleCloseNavMenu}
+                >
                   Services
                 </Link>
               </MenuItem>
               <MenuItem key={"contact"}>
-                <Link offset="10" to="/contact" id="links" onClick={handleCloseNavMenu}>
+                <Link
+                  offset="10"
+                  to="/contact"
+                  id={currPage === "contact" ? "activelinks" : "links"}
+                  onClick={handleCloseNavMenu}
+                >
                   Contact
                 </Link>
               </MenuItem>
@@ -140,20 +173,27 @@ const NavBar = () => {
           </Box>
         </div>
       </nav>
-
-      {width <= 600 ? (
-        <img
-          src={books}
-          style={{ width: "100%", borderBottom: " 6px solid rgba(50, 80, 250, 0.4)" }}
-          alt="https://unsplash.com/@eddrobertson"
-        />
-      ) : (
+      <div className="img-mask">
+        {/* {width <= 600 ? (
+          <img
+            src={books}
+            style={{
+              width: "100%",
+              borderBottom: " 6px solid rgba(50, 80, 250, 0.4)",
+            }}
+            alt="https://unsplash.com/@eddrobertson"
+          />
+        ) : ( */}
         <img
           src={bookssmall}
-          style={{ width: "100%", borderBottom: " 6px solid rgba(50, 80, 250, 0.4)" }}
+          style={{
+            width: "100%",
+            borderBottom: " 6px solid rgba(50, 80, 250, 0.4)",
+          }}
           alt="https://unsplash.com/@eddrobertson"
         />
-      )}
+        {/* )} */}
+      </div>
     </>
   );
 };

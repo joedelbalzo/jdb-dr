@@ -2,6 +2,8 @@ import React from "react";
 import { FadeComponent } from "./FadeComponent";
 import wall from "./assets/wall.jpg";
 
+//page not in use. save for a rainy day.
+
 const About = () => {
   return (
     <FadeComponent>
