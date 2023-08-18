@@ -20197,7 +20197,7 @@ function Contact() {
       className: "after-submit"
     }, "Thank you! I'll be in touch shortly.");
   }
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_FadeComponent__WEBPACK_IMPORTED_MODULE_1__.FadeComponent, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_FadeComponent__WEBPACK_IMPORTED_MODULE_1__.FadeComponent, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
     className: "page-header"
   }, "CONTACT ME"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "page-subheader"
@@ -20665,7 +20665,7 @@ const Portfolio = () => {
     observer.observe(ref3.current);
     return () => observer.disconnect();
   }, []);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_FadeComponent__WEBPACK_IMPORTED_MODULE_1__.FadeComponent, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_FadeComponent__WEBPACK_IMPORTED_MODULE_1__.FadeComponent, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
     className: "page-header"
   }, "PORTFOLIO"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "page-subheader"
@@ -20847,7 +20847,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const Services = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_FadeComponent__WEBPACK_IMPORTED_MODULE_1__.FadeComponent, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h2", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_FadeComponent__WEBPACK_IMPORTED_MODULE_1__.FadeComponent, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
     className: "page-header"
   }, "SERVICES"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "page-subheader"

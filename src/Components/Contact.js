@@ -12,7 +12,7 @@ function Contact() {
   }
   return (
     <FadeComponent>
-      <h2 className="page-header">CONTACT ME</h2>
+      <h1 className="page-header">CONTACT ME</h1>
       <h3 className="page-subheader">Feel free to contact me and I'll be in touch shortly!</h3>
       <form className="main-form" onSubmit={handleSubmit}>
         {/* <label htmlFor="email">Email Address:</label> */}

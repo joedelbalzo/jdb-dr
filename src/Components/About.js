@@ -20,9 +20,9 @@ const About = () => {
             and management.
           </p>
           <p>
-            Currently a Senior Managing Editor at Macmillan, Dawn has overseen the publication of
-            over fifty novels and picture books annually. She has spearheaded key initiatives like
-            the creation of MCPG's house style guide and has run production meetings across
+            Currently an Executive Managing Editor at Macmillan, Dawn has overseen the publication
+            of over fifty novels and picture books annually. She has spearheaded key initiatives
+            like the creation of MCPG's house style guide and has run production meetings across
             departments. She's also a Freelance Copyeditor and Proofreader for Lonely Planet,
             working on projects like Lonely Planet Kids National Parks books.
           </p>

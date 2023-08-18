@@ -46,7 +46,7 @@ const Portfolio = () => {
 
   return (
     <FadeComponent>
-      <h2 className="page-header">PORTFOLIO</h2>
+      <h1 className="page-header">PORTFOLIO</h1>
       <h3 className="page-subheader">A small collection of some of my favorites:</h3>
       <div style={{ overflowX: "hidden" }}>
         <div className="portfolio-section-title">Young Adult</div>
