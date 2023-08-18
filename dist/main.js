@@ -20429,7 +20429,8 @@ const Icons = () => {
     className: "social-media-icons"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     onClick: handleFacebookClick,
-    rel: "noopener noreferrer"
+    rel: "noopener noreferrer",
+    alt: "Facebook Icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_icons_material_Facebook__WEBPACK_IMPORTED_MODULE_1__["default"], {
     style: {
       fontSize: 60
@@ -20437,7 +20438,8 @@ const Icons = () => {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "https://www.linkedin.com/in/dawn-ryan-7357a81b/",
     target: "_blank",
-    rel: "noopener noreferrer"
+    rel: "noopener noreferrer",
+    alt: "LinkedIn Icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_icons_material_LinkedIn__WEBPACK_IMPORTED_MODULE_2__["default"], {
     style: {
       fontSize: 60
@@ -20445,7 +20447,8 @@ const Icons = () => {
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     href: "mailto:dawn.g.ryan@gmail.com",
     target: "_blank",
-    rel: "noopener noreferrer"
+    rel: "noopener noreferrer",
+    alt: "Email Icon"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_icons_material_Email__WEBPACK_IMPORTED_MODULE_3__["default"], {
     style: {
       fontSize: 60
@@ -20675,56 +20678,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _FadeComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FadeComponent */ "./src/Components/FadeComponent.js");
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! framer-motion */ "./node_modules/framer-motion/dist/es/animation/hooks/use-animation.mjs");
-/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! framer-motion */ "./node_modules/framer-motion/dist/es/render/dom/motion.mjs");
-/* harmony import */ var _react_hook_window_size__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @react-hook/window-size */ "./node_modules/@react-hook/window-size/dist/module/index.js");
-/* harmony import */ var _assets_portfolio_yalanguageofthorns_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/portfolio/yalanguageofthorns.jpg */ "./src/Components/assets/portfolio/yalanguageofthorns.jpg");
-/* harmony import */ var _assets_portfolio_yascottbrown_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/portfolio/yascottbrown.jpg */ "./src/Components/assets/portfolio/yascottbrown.jpg");
-/* harmony import */ var _assets_portfolio_yahollyblack_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/portfolio/yahollyblack.jpg */ "./src/Components/assets/portfolio/yahollyblack.jpg");
-/* harmony import */ var _assets_portfolio_yatomi_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/portfolio/yatomi.jpg */ "./src/Components/assets/portfolio/yatomi.jpg");
-/* harmony import */ var _assets_portfolio_mgmyths_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/portfolio/mgmyths.jpg */ "./src/Components/assets/portfolio/mgmyths.jpg");
-/* harmony import */ var _assets_portfolio_mgodder_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/portfolio/mgodder.jpg */ "./src/Components/assets/portfolio/mgodder.jpg");
-/* harmony import */ var _assets_portfolio_mgcookie_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./assets/portfolio/mgcookie.jpg */ "./src/Components/assets/portfolio/mgcookie.jpg");
-/* harmony import */ var _assets_portfolio_mgdaredevil_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./assets/portfolio/mgdaredevil.jpg */ "./src/Components/assets/portfolio/mgdaredevil.jpg");
-/* harmony import */ var _assets_portfolio_gnbeawolf_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./assets/portfolio/gnbeawolf.jpg */ "./src/Components/assets/portfolio/gnbeawolf.jpg");
-/* harmony import */ var _assets_portfolio_gnthings_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./assets/portfolio/gnthings.jpg */ "./src/Components/assets/portfolio/gnthings.jpg");
-/* harmony import */ var _assets_portfolio_gnlunar_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./assets/portfolio/gnlunar.jpg */ "./src/Components/assets/portfolio/gnlunar.jpg");
-/* harmony import */ var _assets_portfolio_gnshadow_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./assets/portfolio/gnshadow.jpg */ "./src/Components/assets/portfolio/gnshadow.jpg");
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! framer-motion */ "./node_modules/framer-motion/dist/es/animation/hooks/use-animation.mjs");
+/* harmony import */ var framer_motion__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! framer-motion */ "./node_modules/framer-motion/dist/es/render/dom/motion.mjs");
+/* harmony import */ var _react_hook_window_size__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @react-hook/window-size */ "./node_modules/@react-hook/window-size/dist/module/index.js");
+/* harmony import */ var _PortfolioImageData__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./PortfolioImageData */ "./src/Components/PortfolioImageData.js");
 
-
-
-
-
-
-//images
-//ya
-
-
-
-
-//mg
-
-
-
-
-//gn
 
 
 
 
 const Portfolio = () => {
-  const controls = (0,framer_motion__WEBPACK_IMPORTED_MODULE_14__.useAnimation)();
-  const controls1 = (0,framer_motion__WEBPACK_IMPORTED_MODULE_14__.useAnimation)();
-  const controls2 = (0,framer_motion__WEBPACK_IMPORTED_MODULE_14__.useAnimation)();
-  const controls3 = (0,framer_motion__WEBPACK_IMPORTED_MODULE_14__.useAnimation)();
-  const [width] = (0,_react_hook_window_size__WEBPACK_IMPORTED_MODULE_15__.useWindowSize)();
-  const images = [1, 2, 3, 4];
-  const yaImages = [_assets_portfolio_yalanguageofthorns_jpg__WEBPACK_IMPORTED_MODULE_2__["default"], _assets_portfolio_yascottbrown_jpg__WEBPACK_IMPORTED_MODULE_3__["default"], _assets_portfolio_yahollyblack_jpg__WEBPACK_IMPORTED_MODULE_4__["default"], _assets_portfolio_yatomi_jpg__WEBPACK_IMPORTED_MODULE_5__["default"]];
-  const mgImages = [_assets_portfolio_mgmyths_jpg__WEBPACK_IMPORTED_MODULE_6__["default"], _assets_portfolio_mgodder_jpg__WEBPACK_IMPORTED_MODULE_7__["default"], _assets_portfolio_mgcookie_jpg__WEBPACK_IMPORTED_MODULE_8__["default"], _assets_portfolio_mgdaredevil_jpg__WEBPACK_IMPORTED_MODULE_9__["default"]];
-  const gnImages = [_assets_portfolio_gnbeawolf_jpg__WEBPACK_IMPORTED_MODULE_10__["default"], _assets_portfolio_gnthings_jpg__WEBPACK_IMPORTED_MODULE_11__["default"], _assets_portfolio_gnlunar_jpg__WEBPACK_IMPORTED_MODULE_12__["default"], _assets_portfolio_gnshadow_jpg__WEBPACK_IMPORTED_MODULE_13__["default"]];
+  const controls = (0,framer_motion__WEBPACK_IMPORTED_MODULE_3__.useAnimation)();
+  const controls1 = (0,framer_motion__WEBPACK_IMPORTED_MODULE_3__.useAnimation)();
+  const controls2 = (0,framer_motion__WEBPACK_IMPORTED_MODULE_3__.useAnimation)();
+  const controls3 = (0,framer_motion__WEBPACK_IMPORTED_MODULE_3__.useAnimation)();
+  const [width] = (0,_react_hook_window_size__WEBPACK_IMPORTED_MODULE_4__.useWindowSize)();
   const ref1 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
   const ref2 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
   const ref3 = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);
+  console.log(_PortfolioImageData__WEBPACK_IMPORTED_MODULE_2__.yaImages);
   const transition = {
     duration: 1,
     ease: "easeInOut"
@@ -20763,7 +20735,7 @@ const Portfolio = () => {
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "portfolio-section-title"
-  }, "Young Adult"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_16__.motion.div, {
+  }, "Young Adult"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_5__.motion.div, {
     ref: ref1,
     initial: {
       x: "100%"
@@ -20777,13 +20749,14 @@ const Portfolio = () => {
       justifyContent: "center",
       overflow: "hidden"
     }
-  }, yaImages.map((image, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  }, _PortfolioImageData__WEBPACK_IMPORTED_MODULE_2__.yaImages.map((image, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     key: index,
-    src: image,
+    src: image.src,
+    alt: image.alt,
     className: "image-carousel"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "portfolio-section-title"
-  }, "Middle Grade"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_16__.motion.div, {
+  }, "Middle Grade"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_5__.motion.div, {
     ref: ref2,
     initial: {
       x: "100%"
@@ -20797,13 +20770,13 @@ const Portfolio = () => {
       justifyContent: "center",
       overflow: "hidden"
     }
-  }, mgImages.map((image, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  }, _PortfolioImageData__WEBPACK_IMPORTED_MODULE_2__.mgImages.map((image, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     key: index,
     src: image,
     className: "image-carousel"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "portfolio-section-title"
-  }, "Graphic Novels"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_16__.motion.div, {
+  }, "Graphic Novels"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(framer_motion__WEBPACK_IMPORTED_MODULE_5__.motion.div, {
     ref: ref3,
     initial: {
       x: "100%"
@@ -20819,13 +20792,101 @@ const Portfolio = () => {
       alignItems: "center",
       margin: "auto"
     }
-  }, gnImages.map((image, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
+  }, _PortfolioImageData__WEBPACK_IMPORTED_MODULE_2__.gnImages.map((image, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     key: index,
     src: image,
     className: "image-carousel"
   })))));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Portfolio);
+
+/***/ }),
+
+/***/ "./src/Components/PortfolioImageData.js":
+/*!**********************************************!*\
+  !*** ./src/Components/PortfolioImageData.js ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "gnImages": () => (/* binding */ gnImages),
+/* harmony export */   "mgImages": () => (/* binding */ mgImages),
+/* harmony export */   "yaImages": () => (/* binding */ yaImages)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _assets_portfolio_yalanguageofthorns_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/portfolio/yalanguageofthorns.jpg */ "./src/Components/assets/portfolio/yalanguageofthorns.jpg");
+/* harmony import */ var _assets_portfolio_yascottbrown_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/portfolio/yascottbrown.jpg */ "./src/Components/assets/portfolio/yascottbrown.jpg");
+/* harmony import */ var _assets_portfolio_yahollyblack_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/portfolio/yahollyblack.jpg */ "./src/Components/assets/portfolio/yahollyblack.jpg");
+/* harmony import */ var _assets_portfolio_yatomi_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/portfolio/yatomi.jpg */ "./src/Components/assets/portfolio/yatomi.jpg");
+/* harmony import */ var _assets_portfolio_mgmyths_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/portfolio/mgmyths.jpg */ "./src/Components/assets/portfolio/mgmyths.jpg");
+/* harmony import */ var _assets_portfolio_mgodder_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/portfolio/mgodder.jpg */ "./src/Components/assets/portfolio/mgodder.jpg");
+/* harmony import */ var _assets_portfolio_mgcookie_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/portfolio/mgcookie.jpg */ "./src/Components/assets/portfolio/mgcookie.jpg");
+/* harmony import */ var _assets_portfolio_mgdaredevil_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./assets/portfolio/mgdaredevil.jpg */ "./src/Components/assets/portfolio/mgdaredevil.jpg");
+/* harmony import */ var _assets_portfolio_gnbeawolf_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./assets/portfolio/gnbeawolf.jpg */ "./src/Components/assets/portfolio/gnbeawolf.jpg");
+/* harmony import */ var _assets_portfolio_gnthings_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./assets/portfolio/gnthings.jpg */ "./src/Components/assets/portfolio/gnthings.jpg");
+/* harmony import */ var _assets_portfolio_gnlunar_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./assets/portfolio/gnlunar.jpg */ "./src/Components/assets/portfolio/gnlunar.jpg");
+/* harmony import */ var _assets_portfolio_gnshadow_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./assets/portfolio/gnshadow.jpg */ "./src/Components/assets/portfolio/gnshadow.jpg");
+
+
+//images
+//ya
+
+
+
+
+//mg
+
+
+
+
+//gn
+
+
+
+
+const yaImages = [{
+  src: _assets_portfolio_yalanguageofthorns_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
+  alt: "Book cover of The Language of Thorns by Leigh Bardugo"
+}, {
+  src: _assets_portfolio_yascottbrown_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
+  alt: "Book cover of XL by Scott Brown"
+}, {
+  src: _assets_portfolio_yahollyblack_jpg__WEBPACK_IMPORTED_MODULE_3__["default"],
+  alt: "Book cover of The Modern Faerie Tales by Holly Black"
+}, {
+  src: _assets_portfolio_yatomi_jpg__WEBPACK_IMPORTED_MODULE_4__["default"],
+  alt: "Book cover of Children of Virtue and Vengeance by Tomi Adeyemi"
+}];
+const mgImages = [{
+  src: _assets_portfolio_mgmyths_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
+  alt: "Book cover of Myths & Legends of the World by Lonely Planet Kids"
+}, {
+  src: _assets_portfolio_mgodder_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
+  alt: "Book cover of Odder by Katherine Applegate"
+}, {
+  src: _assets_portfolio_mgcookie_jpg__WEBPACK_IMPORTED_MODULE_7__["default"],
+  alt: "Book cover of Ben Yokoyama and the Cookie of Doom by Matthew Swanson"
+}, {
+  src: _assets_portfolio_mgdaredevil_jpg__WEBPACK_IMPORTED_MODULE_8__["default"],
+  alt: "Book cover of The Daredevil's Guide to Dangerous Places by Lonely Planet Kids"
+}];
+const gnImages = [{
+  src: _assets_portfolio_gnbeawolf_jpg__WEBPACK_IMPORTED_MODULE_9__["default"],
+  alt: "Book cover of Bea Wolf by Boulet"
+}, {
+  src: _assets_portfolio_gnthings_jpg__WEBPACK_IMPORTED_MODULE_10__["default"],
+  alt: "Book cover of Things in the Basement by Ben Hatke"
+}, {
+  src: _assets_portfolio_gnlunar_jpg__WEBPACK_IMPORTED_MODULE_11__["default"],
+  alt: "Book cover of Lunar New Year Love Story by Gene Yang"
+}, {
+  src: _assets_portfolio_gnshadow_jpg__WEBPACK_IMPORTED_MODULE_12__["default"],
+  alt: "Book cover of Shadow Life by Hiromi Goto"
+}];
+
 
 /***/ }),
 
@@ -20852,25 +20913,25 @@ const Services = () => {
     className: "page-header"
   }, "SERVICES"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "page-subheader"
-  }, "Here's a list of services I offer.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "If you're not sure which service you need or if it's not a service I can accommodate, please contact me anyways! I would love to connect you with another incredibly talented freelancer."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Here's a list of services I offer.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "If you're not sure which service you need or if it's not a service I can accommodate, please contact me regardless! I would love to connect you with another incredibly talented freelancer."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "services"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "services-section-title"
   }, "Proofreading Novels"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "services-description"
-  }, "Will return all projects under 100,000 words within 10 days. $30/hour"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Will return all projects under 100,000 words within 10 days."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "services-section-title"
   }, "Copyediting Novels"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "services-description"
-  }, "Will return all projects under 100,000 words within 15 days. $33/hour"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Will return all projects under 100,000 words within 15 days."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "services-section-title"
   }, "Reviewing Graphic Novels"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "services-description"
-  }, "Cold reads, art checks, and proofreading. Will return all projects under 320 pages within 10 days. $30/hour"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Cold reads, art checks, and proofreading. Will return all projects under 320 pages within 10 days."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "services-section-title"
   }, "Additional Consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "services-description"
-  }, "Guidance on Management for all stages of the creative and career-building process $35/hour"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Guidance on Management for all stages of the creative and career-building process."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     style: {
       margin: "auto",
       textAlign: "center",

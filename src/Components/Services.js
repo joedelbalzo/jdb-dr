@@ -10,25 +10,30 @@ const Services = () => {
         Here's a list of services I offer.
         <br />
         If you're not sure which service you need or if it's not a service I can accommodate, please
-        contact me anyways! I would love to connect you with another incredibly talented freelancer.
+        contact me regardless! I would love to connect you with another incredibly talented
+        freelancer.
       </h3>
       <div className="services">
         <div className="services-section-title">Proofreading Novels</div>
         <div className="services-description">
-          Will return all projects under 100,000 words within 10 days. $30/hour
+          Will return all projects under 100,000 words within 10 days.
+          {/* $30/hour */}
         </div>
         <div className="services-section-title">Copyediting Novels</div>
         <div className="services-description">
-          Will return all projects under 100,000 words within 15 days. $33/hour
+          Will return all projects under 100,000 words within 15 days.
+          {/* $33/hour */}
         </div>
         <div className="services-section-title">Reviewing Graphic Novels</div>
         <div className="services-description">
           Cold reads, art checks, and proofreading. Will return all projects under 320 pages within
-          10 days. $30/hour
+          10 days.
+          {/* $30/hour */}
         </div>
         <div className="services-section-title">Additional Consultation</div>
         <div className="services-description">
-          Guidance on Management for all stages of the creative and career-building process $35/hour
+          Guidance on Management for all stages of the creative and career-building process.
+          {/* $35/hour */}
         </div>
 
         <div

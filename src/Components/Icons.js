@@ -19,17 +19,23 @@ const Icons = () => {
 
   return (
     <div className="social-media-icons">
-      <a onClick={handleFacebookClick} rel="noopener noreferrer">
+      <a onClick={handleFacebookClick} rel="noopener noreferrer" alt="Facebook Icon">
         <FacebookIcon style={{ fontSize: 60 }} />
       </a>
       <a
         href="https://www.linkedin.com/in/dawn-ryan-7357a81b/"
         target="_blank"
         rel="noopener noreferrer"
+        alt="LinkedIn Icon"
       >
         <LinkedInIcon style={{ fontSize: 60 }} />
       </a>
-      <a href="mailto:dawn.g.ryan@gmail.com" target="_blank" rel="noopener noreferrer">
+      <a
+        href="mailto:dawn.g.ryan@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        alt="Email Icon"
+      >
         <EmailIcon style={{ fontSize: 60 }} />
       </a>
     </div>
