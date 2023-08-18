@@ -82,7 +82,7 @@ const Portfolio = () => {
           }}
         >
           {mgImages.map((image, index) => (
-            <img key={index} src={image} className="image-carousel" />
+            <img key={index} src={image.src} alt={image.alt} className="image-carousel" />
           ))}
         </motion.div>
         <div className="portfolio-section-title">Graphic Novels</div>
@@ -102,7 +102,7 @@ const Portfolio = () => {
           }}
         >
           {gnImages.map((image, index) => (
-            <img key={index} src={image} className="image-carousel" />
+            <img key={index} src={image.src} alt={image.alt} className="image-carousel" />
           ))}
         </motion.div>
       </div>
