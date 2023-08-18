@@ -20056,43 +20056,6 @@ module.exports = __webpack_require__(/*! ./dist/pure.js */ "./node_modules/@stri
 
 /***/ }),
 
-/***/ "./src/Components/About.js":
-/*!*********************************!*\
-  !*** ./src/Components/About.js ***!
-  \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _FadeComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FadeComponent */ "./src/Components/FadeComponent.js");
-/* harmony import */ var _assets_wall_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/wall.jpg */ "./src/Components/assets/wall.jpg");
-
-
-
-
-//page not in use. save for a rainy day.
-
-const About = () => {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_FadeComponent__WEBPACK_IMPORTED_MODULE_1__.FadeComponent, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "about"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "about-image-container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    className: "about-image",
-    src: _assets_wall_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "about-paragraph"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "A seasoned professional in the publishing industry, Dawn brings over a decade of experience to the table. With tenures at renowned publishing houses such as Penguin Random House, Simon & Schuster, and Macmillan, she has honed her skills in publishing and management."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Currently a Senior Managing Editor at Macmillan, Dawn has overseen the publication of over fifty novels and picture books annually. She has spearheaded key initiatives like the creation of MCPG's house style guide and has run production meetings across departments. She's also a Freelance Copyeditor and Proofreader for Lonely Planet, working on projects like Lonely Planet Kids National Parks books."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Beyond her publishing roles, Dawn is an advocate for diversity and inclusion, a skilled community service volunteer, and conversant in French and Spanish. She holds a Bachelor of Arts in Writing, Media, and Communications from the University of Rochester and is certified in Copyediting, Proofreading, and Fact-Checking by New York University."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("p", null, "Dawn's unique blend of creativity, leadership, and hands-on experience makes her an exceptional choice for all your publishing needs."))));
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);
-
-/***/ }),
-
 /***/ "./src/Components/App.js":
 /*!*******************************!*\
   !*** ./src/Components/App.js ***!
@@ -20365,12 +20328,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _FadeComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FadeComponent */ "./src/Components/FadeComponent.js");
-/* harmony import */ var _Services__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Services */ "./src/Components/Services.js");
-/* harmony import */ var _About__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./About */ "./src/Components/About.js");
-/* harmony import */ var _Contact__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Contact */ "./src/Components/Contact.js");
-
-
-
+/* harmony import */ var _Contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Contact */ "./src/Components/Contact.js");
 
 
 
@@ -20380,13 +20338,18 @@ const Home = () => {
     style: {
       marginBottom: "5rem"
     }
-  }, "Hi, I\u2019m Dawn, a professional proofreader and copyeditor with fifteen years of publishing experience, from Middle Grade and YA novels, to Graphic Novels, and more.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
+    className: "home-intro-paragraph",
+    style: {
+      display: "inline"
+    }
+  }, "Hi, I\u2019m Dawn, a professional proofreader and copyeditor with fifteen years of publishing experience"), ", from Middle Grade and YA novels, to Graphic Novels, and more.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     style: {
       margin: "auto",
       textAlign: "center",
       paddingTop: "1rem"
     }
-  }, "Let's make your words shine!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Contact__WEBPACK_IMPORTED_MODULE_4__["default"], null));
+  }, "Let's make your words shine!")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Contact__WEBPACK_IMPORTED_MODULE_2__["default"], null));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Home);
 
@@ -20412,15 +20375,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
 const Icons = () => {
   const handleFacebookClick = e => {
     e.preventDefault();
-
     // const appUrl = "fb://dawn.ryan.908/3704996";
     // window.open(appUrl, "_blank");
-
     setTimeout(() => {
       window.open("https://www.facebook.com/dawn.ryan.908", "_blank");
     }, 500);
@@ -20472,21 +20431,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
-/* harmony import */ var _Services__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Services */ "./src/Components/Services.js");
-/* harmony import */ var _About__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./About */ "./src/Components/About.js");
-/* harmony import */ var _Contact__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Contact */ "./src/Components/Contact.js");
-/* harmony import */ var _mui_material_Box__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @mui/material/Box */ "./node_modules/@mui/material/Box/Box.js");
-/* harmony import */ var _mui_material_IconButton__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @mui/material/IconButton */ "./node_modules/@mui/material/IconButton/IconButton.js");
-/* harmony import */ var _mui_icons_material_Menu__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @mui/icons-material/Menu */ "./node_modules/@mui/icons-material/Menu.js");
-/* harmony import */ var _mui_material_Menu__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @mui/material/Menu */ "./node_modules/@mui/material/Menu/Menu.js");
-/* harmony import */ var _mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @mui/material/MenuItem */ "./node_modules/@mui/material/MenuItem/MenuItem.js");
-/* harmony import */ var _assets_books_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/books.jpg */ "./src/Components/assets/books.jpg");
-/* harmony import */ var _assets_bookssmall_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/bookssmall.jpg */ "./src/Components/assets/bookssmall.jpg");
-/* harmony import */ var _assets_redunderline_png__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/redunderline.png */ "./src/Components/assets/redunderline.png");
-
-
-
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
+/* harmony import */ var _mui_material_Box__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @mui/material/Box */ "./node_modules/@mui/material/Box/Box.js");
+/* harmony import */ var _mui_material_IconButton__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @mui/material/IconButton */ "./node_modules/@mui/material/IconButton/IconButton.js");
+/* harmony import */ var _mui_icons_material_Menu__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @mui/icons-material/Menu */ "./node_modules/@mui/icons-material/Menu.js");
+/* harmony import */ var _mui_material_Menu__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @mui/material/Menu */ "./node_modules/@mui/material/Menu/Menu.js");
+/* harmony import */ var _mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @mui/material/MenuItem */ "./node_modules/@mui/material/MenuItem/MenuItem.js");
+/* harmony import */ var _assets_bookssmall_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/bookssmall.jpg */ "./src/Components/assets/bookssmall.jpg");
+/* harmony import */ var _assets_redunderline_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/redunderline.png */ "./src/Components/assets/redunderline.png");
 
 
 
@@ -20497,13 +20449,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-
-
-
-
-
 //images
-
 
 
 const NavBar = () => {
@@ -20518,12 +20464,6 @@ const NavBar = () => {
       console.log(err);
     }
   }, []);
-
-  // useEffect(() => {
-  //   console.log(window.location.hash.slice(2));
-  //   setCurrPage(window.location.hash.slice(2));
-  // }, [anchorElNav]);
-
   const handleOpenNavMenu = event => {
     setAnchorElNav(event.currentTarget);
   };
@@ -20543,7 +20483,7 @@ const NavBar = () => {
     className: "nameDivContainer"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "name"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
     to: "/",
     style: {
       textDecoration: "none",
@@ -20553,21 +20493,21 @@ const NavBar = () => {
     className: "underline"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     className: "reveal-image",
-    src: _assets_redunderline_png__WEBPACK_IMPORTED_MODULE_6__["default"]
+    src: _assets_redunderline_png__WEBPACK_IMPORTED_MODULE_2__["default"]
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "menuItems",
     id: "large"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
     to: "/portfolio",
     onClick: () => setCurrPage("portfolio")
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: currPage === "portfolio" ? "active" : "menuItems-first-child"
-  }, "Portfolio")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, {
+  }, "Portfolio")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
     to: "/services",
     onClick: () => setCurrPage("services")
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: currPage === "services" ? "active" : "menuItems-second-child"
-  }, "Services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, {
+  }, "Services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
     to: "/contact",
     onClick: () => setCurrPage("contact")
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
@@ -20575,7 +20515,7 @@ const NavBar = () => {
   }, "Contact"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "menuItems",
     id: "small"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material_Box__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material_Box__WEBPACK_IMPORTED_MODULE_4__["default"], {
     sx: {
       padding: "0px",
       margin: "0px",
@@ -20585,7 +20525,7 @@ const NavBar = () => {
         md: "none"
       }
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material_IconButton__WEBPACK_IMPORTED_MODULE_9__["default"]
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material_IconButton__WEBPACK_IMPORTED_MODULE_5__["default"]
   // size="large"
   // aria-label="account of current user"
   , {
@@ -20593,7 +20533,7 @@ const NavBar = () => {
     "aria-haspopup": "true",
     onClick: handleOpenNavMenu,
     color: "inherit"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_icons_material_Menu__WEBPACK_IMPORTED_MODULE_10__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material_Menu__WEBPACK_IMPORTED_MODULE_11__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_icons_material_Menu__WEBPACK_IMPORTED_MODULE_6__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material_Menu__WEBPACK_IMPORTED_MODULE_7__["default"], {
     id: "menu-appbar",
     anchorEl: anchorElNav,
     anchorOrigin: {
@@ -20620,31 +20560,31 @@ const NavBar = () => {
         className: "menu-paper-root"
       }
     }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_12__["default"], {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_8__["default"], {
     key: "home",
     onClick: scrollToTop
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
     offset: "10",
     to: "/",
     id: currPage === "" ? "activelinks" : "links",
     onClick: handleCloseNavMenu
-  }, "Home")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_12__["default"], {
+  }, "Home")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_8__["default"], {
     key: "portfolio"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
     offset: "10",
     to: "/portfolio",
     id: currPage === "portfolio" ? "activelinks" : "links",
     onClick: handleCloseNavMenu
-  }, "Portfolio")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_12__["default"], {
+  }, "Portfolio")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_8__["default"], {
     key: "services"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
     offset: "10",
     to: "/services",
     id: currPage === "services" ? "activelinks" : "links",
     onClick: handleCloseNavMenu
-  }, "Services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_12__["default"], {
+  }, "Services")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_material_MenuItem__WEBPACK_IMPORTED_MODULE_8__["default"], {
     key: "contact"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.Link, {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.Link, {
     offset: "10",
     to: "/contact",
     id: currPage === "contact" ? "activelinks" : "links",
@@ -20652,7 +20592,7 @@ const NavBar = () => {
   }, "Contact")))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "img-mask"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    src: _assets_bookssmall_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
+    src: _assets_bookssmall_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
     style: {
       width: "100%",
       borderBottom: " 6px solid rgba(50, 80, 250, 0.4)"
@@ -20772,7 +20712,8 @@ const Portfolio = () => {
     }
   }, _PortfolioImageData__WEBPACK_IMPORTED_MODULE_2__.mgImages.map((image, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     key: index,
-    src: image,
+    src: image.src,
+    alt: image.alt,
     className: "image-carousel"
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "portfolio-section-title"
@@ -20794,7 +20735,8 @@ const Portfolio = () => {
     }
   }, _PortfolioImageData__WEBPACK_IMPORTED_MODULE_2__.gnImages.map((image, index) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
     key: index,
-    src: image,
+    src: image.src,
+    alt: image.alt,
     className: "image-carousel"
   })))));
 };
@@ -20815,22 +20757,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "mgImages": () => (/* binding */ mgImages),
 /* harmony export */   "yaImages": () => (/* binding */ yaImages)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _assets_portfolio_yalanguageofthorns_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/portfolio/yalanguageofthorns.jpg */ "./src/Components/assets/portfolio/yalanguageofthorns.jpg");
-/* harmony import */ var _assets_portfolio_yascottbrown_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/portfolio/yascottbrown.jpg */ "./src/Components/assets/portfolio/yascottbrown.jpg");
-/* harmony import */ var _assets_portfolio_yahollyblack_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/portfolio/yahollyblack.jpg */ "./src/Components/assets/portfolio/yahollyblack.jpg");
-/* harmony import */ var _assets_portfolio_yatomi_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/portfolio/yatomi.jpg */ "./src/Components/assets/portfolio/yatomi.jpg");
-/* harmony import */ var _assets_portfolio_mgmyths_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/portfolio/mgmyths.jpg */ "./src/Components/assets/portfolio/mgmyths.jpg");
-/* harmony import */ var _assets_portfolio_mgodder_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/portfolio/mgodder.jpg */ "./src/Components/assets/portfolio/mgodder.jpg");
-/* harmony import */ var _assets_portfolio_mgcookie_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/portfolio/mgcookie.jpg */ "./src/Components/assets/portfolio/mgcookie.jpg");
-/* harmony import */ var _assets_portfolio_mgdaredevil_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./assets/portfolio/mgdaredevil.jpg */ "./src/Components/assets/portfolio/mgdaredevil.jpg");
-/* harmony import */ var _assets_portfolio_gnbeawolf_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./assets/portfolio/gnbeawolf.jpg */ "./src/Components/assets/portfolio/gnbeawolf.jpg");
-/* harmony import */ var _assets_portfolio_gnthings_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./assets/portfolio/gnthings.jpg */ "./src/Components/assets/portfolio/gnthings.jpg");
-/* harmony import */ var _assets_portfolio_gnlunar_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./assets/portfolio/gnlunar.jpg */ "./src/Components/assets/portfolio/gnlunar.jpg");
-/* harmony import */ var _assets_portfolio_gnshadow_jpg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./assets/portfolio/gnshadow.jpg */ "./src/Components/assets/portfolio/gnshadow.jpg");
-
-
+/* harmony import */ var _assets_portfolio_yalanguageofthorns_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./assets/portfolio/yalanguageofthorns.jpg */ "./src/Components/assets/portfolio/yalanguageofthorns.jpg");
+/* harmony import */ var _assets_portfolio_yascottbrown_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./assets/portfolio/yascottbrown.jpg */ "./src/Components/assets/portfolio/yascottbrown.jpg");
+/* harmony import */ var _assets_portfolio_yahollyblack_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./assets/portfolio/yahollyblack.jpg */ "./src/Components/assets/portfolio/yahollyblack.jpg");
+/* harmony import */ var _assets_portfolio_yatomi_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./assets/portfolio/yatomi.jpg */ "./src/Components/assets/portfolio/yatomi.jpg");
+/* harmony import */ var _assets_portfolio_mgmyths_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./assets/portfolio/mgmyths.jpg */ "./src/Components/assets/portfolio/mgmyths.jpg");
+/* harmony import */ var _assets_portfolio_mgodder_jpg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./assets/portfolio/mgodder.jpg */ "./src/Components/assets/portfolio/mgodder.jpg");
+/* harmony import */ var _assets_portfolio_mgcookie_jpg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./assets/portfolio/mgcookie.jpg */ "./src/Components/assets/portfolio/mgcookie.jpg");
+/* harmony import */ var _assets_portfolio_mgdaredevil_jpg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./assets/portfolio/mgdaredevil.jpg */ "./src/Components/assets/portfolio/mgdaredevil.jpg");
+/* harmony import */ var _assets_portfolio_gnbeawolf_jpg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./assets/portfolio/gnbeawolf.jpg */ "./src/Components/assets/portfolio/gnbeawolf.jpg");
+/* harmony import */ var _assets_portfolio_gnthings_jpg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./assets/portfolio/gnthings.jpg */ "./src/Components/assets/portfolio/gnthings.jpg");
+/* harmony import */ var _assets_portfolio_gnlunar_jpg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./assets/portfolio/gnlunar.jpg */ "./src/Components/assets/portfolio/gnlunar.jpg");
+/* harmony import */ var _assets_portfolio_gnshadow_jpg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./assets/portfolio/gnshadow.jpg */ "./src/Components/assets/portfolio/gnshadow.jpg");
 //images
 //ya
 
@@ -20848,43 +20786,43 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const yaImages = [{
-  src: _assets_portfolio_yalanguageofthorns_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
-  alt: "Book cover of The Language of Thorns by Leigh Bardugo"
+  src: _assets_portfolio_yalanguageofthorns_jpg__WEBPACK_IMPORTED_MODULE_0__["default"],
+  alt: "Book cover of The Language of Thorns by Leigh Bardugo, a Young Adult novel published by Imprint, an imprint of Macmillan Children's Publishing Group."
 }, {
-  src: _assets_portfolio_yascottbrown_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
-  alt: "Book cover of XL by Scott Brown"
+  src: _assets_portfolio_yascottbrown_jpg__WEBPACK_IMPORTED_MODULE_1__["default"],
+  alt: "Book cover of XL by Scott Brown, a Young Adult novel published by Alfred A. Knopf Books for Young Readers, an imprint of Penguin Random House."
 }, {
-  src: _assets_portfolio_yahollyblack_jpg__WEBPACK_IMPORTED_MODULE_3__["default"],
-  alt: "Book cover of The Modern Faerie Tales by Holly Black"
+  src: _assets_portfolio_yahollyblack_jpg__WEBPACK_IMPORTED_MODULE_2__["default"],
+  alt: "Book cover of The Modern Faerie Tales by Holly Black, a Young Adult novel published by Simon and Schuster."
 }, {
-  src: _assets_portfolio_yatomi_jpg__WEBPACK_IMPORTED_MODULE_4__["default"],
-  alt: "Book cover of Children of Virtue and Vengeance by Tomi Adeyemi"
+  src: _assets_portfolio_yatomi_jpg__WEBPACK_IMPORTED_MODULE_3__["default"],
+  alt: "Book cover of Children of Virtue and Vengeance by Tomi Adeyemi, a Young Adult novel published by Henry Holt and Co., an imprint of Macmillan Publishers."
 }];
 const mgImages = [{
-  src: _assets_portfolio_mgmyths_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
-  alt: "Book cover of Myths & Legends of the World by Lonely Planet Kids"
+  src: _assets_portfolio_mgmyths_jpg__WEBPACK_IMPORTED_MODULE_4__["default"],
+  alt: "Book cover of Myths & Legends of the World by Lonely Planet Kids, a Middle Grade book published by Lonely Planet."
 }, {
-  src: _assets_portfolio_mgodder_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
-  alt: "Book cover of Odder by Katherine Applegate"
+  src: _assets_portfolio_mgodder_jpg__WEBPACK_IMPORTED_MODULE_5__["default"],
+  alt: "Book cover of Odder by Katherine Applegate, a Middle Grade book published by Feiwel and Friends, an imprint of Macmillan Children's Publishing Group."
 }, {
-  src: _assets_portfolio_mgcookie_jpg__WEBPACK_IMPORTED_MODULE_7__["default"],
-  alt: "Book cover of Ben Yokoyama and the Cookie of Doom by Matthew Swanson"
+  src: _assets_portfolio_mgcookie_jpg__WEBPACK_IMPORTED_MODULE_6__["default"],
+  alt: "Book cover of Ben Yokoyama and the Cookie of Doom by Matthew Swanson, a Middle Grade book published by Alfred A. Knopf Books for Young Readers, an imprint of Penguin Random House."
 }, {
-  src: _assets_portfolio_mgdaredevil_jpg__WEBPACK_IMPORTED_MODULE_8__["default"],
-  alt: "Book cover of The Daredevil's Guide to Dangerous Places by Lonely Planet Kids"
+  src: _assets_portfolio_mgdaredevil_jpg__WEBPACK_IMPORTED_MODULE_7__["default"],
+  alt: "Book cover of The Daredevil's Guide to Dangerous Places by Lonely Planet Kids, a Middle Grade book published by Lonely Planet."
 }];
 const gnImages = [{
-  src: _assets_portfolio_gnbeawolf_jpg__WEBPACK_IMPORTED_MODULE_9__["default"],
-  alt: "Book cover of Bea Wolf by Boulet"
+  src: _assets_portfolio_gnbeawolf_jpg__WEBPACK_IMPORTED_MODULE_8__["default"],
+  alt: "Book cover of Bea Wolf by Boulet, a Graphic Novel published by First Second, an imprint of Macmillan Children's Publishing Group."
 }, {
-  src: _assets_portfolio_gnthings_jpg__WEBPACK_IMPORTED_MODULE_10__["default"],
-  alt: "Book cover of Things in the Basement by Ben Hatke"
+  src: _assets_portfolio_gnthings_jpg__WEBPACK_IMPORTED_MODULE_9__["default"],
+  alt: "Book cover of Things in the Basement by Ben Hatke, a Graphic Novel published by First Second, an imprint of Macmillan Children's Publishing Group."
 }, {
-  src: _assets_portfolio_gnlunar_jpg__WEBPACK_IMPORTED_MODULE_11__["default"],
-  alt: "Book cover of Lunar New Year Love Story by Gene Yang"
+  src: _assets_portfolio_gnlunar_jpg__WEBPACK_IMPORTED_MODULE_10__["default"],
+  alt: "Book cover of Lunar New Year Love Story by Gene Yang, a Graphic Novel published by First Second, an imprint of Macmillan Children's Publishing Group."
 }, {
-  src: _assets_portfolio_gnshadow_jpg__WEBPACK_IMPORTED_MODULE_12__["default"],
-  alt: "Book cover of Shadow Life by Hiromi Goto"
+  src: _assets_portfolio_gnshadow_jpg__WEBPACK_IMPORTED_MODULE_11__["default"],
+  alt: "Book cover of Shadow Life by Hiromi Goto, a Graphic Novel published by First Second, an imprint of Macmillan Children's Publishing Group."
 }];
 
 
@@ -20992,21 +20930,6 @@ const fetchMain = () => {
 };
 const store = (0,redux__WEBPACK_IMPORTED_MODULE_1__.createStore)(reducer, (0,redux__WEBPACK_IMPORTED_MODULE_1__.applyMiddleware)(redux_thunk__WEBPACK_IMPORTED_MODULE_3__["default"], (redux_logger__WEBPACK_IMPORTED_MODULE_0___default())));
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (store);
-
-/***/ }),
-
-/***/ "./src/Components/assets/books.jpg":
-/*!*****************************************!*\
-  !*** ./src/Components/assets/books.jpg ***!
-  \*****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/books.jpg");
 
 /***/ }),
 
@@ -21217,21 +21140,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/redunderline.png");
-
-/***/ }),
-
-/***/ "./src/Components/assets/wall.jpg":
-/*!****************************************!*\
-  !*** ./src/Components/assets/wall.jpg ***!
-  \****************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__webpack_require__.p + "assets/wall.jpg");
 
 /***/ }),
 
