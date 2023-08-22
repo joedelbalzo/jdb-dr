@@ -20931,7 +20931,12 @@ const Services = () => {
     style: {
       fontWeight: 400
     }
-  }, "Leave it better than when you found it!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Using your guidance, I pay attention to everything you\u2019d like me to focus on, and phrase all queries and comments with courtesy and professionalism. Reviewing a copyedit or proofread should be a painless and clear process, and that\u2019s what I deliver. If you're not sure which service you need or if it's not a service I can accommodate, please contact me anyway! I would love to hear more about your project to see what I can do, or connect you with another incredibly talented freelancer."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Leave it better than when you found it!"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: {
+      textIndent: "1rem",
+      textAlign: "left"
+    }
+  }, "Using your guidance, I pay attention to everything you\u2019d like me to focus on, and phrase all queries and comments with courtesy and professionalism. Reviewing a copyedit or proofread should be a painless and clear process, and that\u2019s what I deliver. If you're not sure which service you need or if it's not a service I can accommodate, please contact me anyway! I would love to hear more about your project to see what I can do, or connect you with another incredibly talented freelancer."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "services-section-title"
   }, "Proofreading Novels"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "services-list"
