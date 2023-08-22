@@ -181,9 +181,7 @@ nav > .menuItems > *:hover {
   font-weight: 350;
   color: rgb(20, 30, 70);
   word-break: keep-all;
-  text-align: justify;
-  /* text-justify:; */
-  hyphens: none;
+  text-align: center;
 }
 
 .social-media-icons {

@@ -6,16 +6,18 @@ import Form from "./Form";
 const Services = () => {
   return (
     <FadeComponent>
-      <h1 className="page-header">SERVICES</h1>
-      <h3 className="page-subheader">Here's a list of services I offer.</h3>
+      <h1 className="page-header" style={{ marginBottom: "1rem" }}>
+        SERVICES
+      </h1>
+      {/* <h3 className="page-subheader">Here's a list of services I offer.</h3> */}
       <div className="services">
         <span style={{ fontWeight: 350 }}>
           I follow the campsite rule with every project I take on:{" "}
-          <span style={{ fontWeight: 400 }}>Leave it better than when you found it!</span>{" "}
+          <span style={{ fontWeight: 400 }}>Leave it better than you found it!</span>{" "}
         </span>
         <br />
         <br />
-        <div style={{ textIndent: "1rem", textAlign: "left" }}>
+        <div style={{ textAlign: "center" }}>
           Using your guidance, I pay attention to everything you’d like me to focus on, and phrase
           all queries and comments with courtesy and professionalism. Reviewing a copyedit or
           proofread should be a painless and clear process, and that’s what I deliver. If you're not
@@ -49,29 +51,29 @@ const Services = () => {
         <br />
         <ul>
           <li className="services-list">
-            Working with Word documents using track changes and comments
+            Working with Word documents using track changes and comments.
           </li>
 
-          <li className="services-list">Reading text and fixing grammar/spelling issues</li>
-          <li className="services-list">Confirming timelines and facts</li>
+          <li className="services-list">Reading text and fixing grammar and spelling issues.</li>
+          <li className="services-list">Confirming timelines and facts.</li>
           <li className="services-list">
-            Phrasing queries professionally for content that goes to Authors
+            Phrasing queries professionally for content that goes to Authors.
           </li>
-          <li className="services-list">Styling manuscripts in Word for InDesign layouts</li>
+          <li className="services-list">Styling manuscripts in Word for InDesign layouts.</li>
           <li className="services-list">
             Will return all projects under 100,000 words within 15 days.
           </li>
         </ul>
 
-        <div className="services-section-title">Reviewing Graphic Novels</div>
+        <div className="services-section-title">Reviewing Graphic Novels.</div>
         <br />
         <ul>
           <li className="services-list">
-            Reviewing text and art in layouts during any stage of the process
+            Reviewing text and art in layouts during any stage of the process.
           </li>
-          <li className="services-list">Cold reading, proofreading, checking art and facts</li>
+          <li className="services-list">Cold reading, proofreading, checking art and facts.</li>
           <li className="services-list">
-            Advising on how to streamline projects (since graphic novels are complex!)
+            Advising on how to streamline projects (since graphic novels are complex!).
           </li>
           <li className="services-list">
             Will return all projects under 320 pages within 10 days.

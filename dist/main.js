@@ -20918,10 +20918,11 @@ __webpack_require__.r(__webpack_exports__);
 
 const Services = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_FadeComponent__WEBPACK_IMPORTED_MODULE_1__.FadeComponent, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
-    className: "page-header"
-  }, "SERVICES"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
-    className: "page-subheader"
-  }, "Here's a list of services I offer."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "page-header",
+    style: {
+      marginBottom: "1rem"
+    }
+  }, "SERVICES"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "services"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     style: {
@@ -20931,10 +20932,9 @@ const Services = () => {
     style: {
       fontWeight: 400
     }
-  }, "Leave it better than when you found it!"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Leave it better than you found it!"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     style: {
-      textIndent: "1rem",
-      textAlign: "left"
+      textAlign: "center"
     }
   }, "Using your guidance, I pay attention to everything you\u2019d like me to focus on, and phrase all queries and comments with courtesy and professionalism. Reviewing a copyedit or proofread should be a painless and clear process, and that\u2019s what I deliver. If you're not sure which service you need or if it's not a service I can accommodate, please contact me anyway! I would love to hear more about your project to see what I can do, or connect you with another incredibly talented freelancer."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "services-section-title"
@@ -20952,25 +20952,25 @@ const Services = () => {
     className: "services-section-title"
   }, "Copyediting Novels"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "services-list"
-  }, "Working with Word documents using track changes and comments"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Working with Word documents using track changes and comments."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "services-list"
-  }, "Reading text and fixing grammar/spelling issues"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Reading text and fixing grammar and spelling issues."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "services-list"
-  }, "Confirming timelines and facts"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Confirming timelines and facts."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "services-list"
-  }, "Phrasing queries professionally for content that goes to Authors"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Phrasing queries professionally for content that goes to Authors."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "services-list"
-  }, "Styling manuscripts in Word for InDesign layouts"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Styling manuscripts in Word for InDesign layouts."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "services-list"
   }, "Will return all projects under 100,000 words within 15 days.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "services-section-title"
-  }, "Reviewing Graphic Novels"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Reviewing Graphic Novels."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "services-list"
-  }, "Reviewing text and art in layouts during any stage of the process"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Reviewing text and art in layouts during any stage of the process."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "services-list"
-  }, "Cold reading, proofreading, checking art and facts"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Cold reading, proofreading, checking art and facts."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "services-list"
-  }, "Advising on how to streamline projects (since graphic novels are complex!)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+  }, "Advising on how to streamline projects (since graphic novels are complex!)."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
     className: "services-list"
   }, "Will return all projects under 320 pages within 10 days.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     style: {
