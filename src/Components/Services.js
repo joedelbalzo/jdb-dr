@@ -14,12 +14,14 @@ const Services = () => {
           <span style={{ fontWeight: 400 }}>Leave it better than when you found it!</span>
           <br />
           <br />
-          Using your guidance, I pay attention to everything you’d like me to focus on, and phrase
-          all queries and comments with courtesy and professionalism. Reviewing a copyedit or
-          proofread should be a painless and clear process, and that’s what I deliver. If you're not
-          sure which service you need or if it's not a service I can accommodate, please contact me
-          anyway! I would love to hear more about your project to see what I can do, or connect you
-          with another incredibly talented freelancer.
+          <span style={{ textIndent: "1rem", textAlign: "left" }}>
+            Using your guidance, I pay attention to everything you’d like me to focus on, and phrase
+            all queries and comments with courtesy and professionalism. Reviewing a copyedit or
+            proofread should be a painless and clear process, and that’s what I deliver. If you're
+            not sure which service you need or if it's not a service I can accommodate, please
+            contact me anyway! I would love to hear more about your project to see what I can do, or
+            connect you with another incredibly talented freelancer.
+          </span>
         </span>
         <div className="services-section-title">Proofreading Novels</div>
         <br />
