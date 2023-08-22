@@ -20314,6 +20314,75 @@ const Footer = () => {
 
 /***/ }),
 
+/***/ "./src/Components/Form.js":
+/*!********************************!*\
+  !*** ./src/Components/Form.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _FadeComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FadeComponent */ "./src/Components/FadeComponent.js");
+/* harmony import */ var _formspree_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @formspree/react */ "./node_modules/@formspree/react/dist/index.mjs");
+
+
+
+
+//notes - create a thanks for your submission page for redirecting. set timeout there for 4 seconds to redirect home
+
+function Form() {
+  const [state, handleSubmit] = (0,_formspree_react__WEBPACK_IMPORTED_MODULE_2__.useForm)("mgejadwz");
+  if (state.succeeded) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+      className: "after-submit"
+    }, "Thank you! I'll be in touch shortly.");
+  }
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_FadeComponent__WEBPACK_IMPORTED_MODULE_1__.FadeComponent, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("form", {
+    className: "main-form",
+    onSubmit: handleSubmit
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    id: "name",
+    type: "name",
+    name: "name",
+    placeholder: "Your Name"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    id: "email",
+    type: "email",
+    name: "email",
+    placeholder: "Your Email Address"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_formspree_react__WEBPACK_IMPORTED_MODULE_2__.ValidationError, {
+    prefix: "Email",
+    field: "email",
+    errors: state.errors
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("input", {
+    id: "subject",
+    type: "subject",
+    name: "subject",
+    placeholder: "Subject"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("textarea", {
+    id: "message",
+    name: "message",
+    placeholder: "Your message"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_formspree_react__WEBPACK_IMPORTED_MODULE_2__.ValidationError, {
+    prefix: "Message",
+    field: "message",
+    errors: state.errors
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("button", {
+    type: "submit",
+    disabled: state.submitting
+  }, "SUBMIT"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
+    className: "page-subheader"
+  }, "or email me at dawn.g.ryan@gmail.com")));
+}
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Form);
+
+/***/ }),
+
 /***/ "./src/Components/Home.js":
 /*!********************************!*\
   !*** ./src/Components/Home.js ***!
@@ -20842,7 +20911,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _FadeComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./FadeComponent */ "./src/Components/FadeComponent.js");
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/dist/index.js");
+/* harmony import */ var _Form__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Form */ "./src/Components/Form.js");
+
 
 
 
@@ -20851,39 +20921,60 @@ const Services = () => {
     className: "page-header"
   }, "SERVICES"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h3", {
     className: "page-subheader"
-  }, "Here's a list of services I offer.", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "If you're not sure which service you need or if it's not a service I can accommodate, please contact me regardless! I would love to connect you with another incredibly talented freelancer."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Here's a list of services I offer."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "services"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "services-section-title"
-  }, "Proofreading Novels"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "services-description"
-  }, "Will return all projects under 100,000 words within 10 days."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "services-section-title"
-  }, "Copyediting Novels"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "services-description"
-  }, "Will return all projects under 100,000 words within 15 days."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "services-section-title"
-  }, "Reviewing Graphic Novels"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "services-description"
-  }, "Cold reads, art checks, and proofreading. Will return all projects under 320 pages within 10 days."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "services-section-title"
-  }, "Additional Consultation"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    className: "services-description"
-  }, "Guidance on Management for all stages of the creative and career-building process."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     style: {
-      margin: "auto",
+      fontWeight: 350
+    }
+  }, "I follow the campsite rule with every project I take on:", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+    style: {
+      fontWeight: 400
+    }
+  }, "Leave it better than when you found it!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), "Using your guidance, I pay attention to everything you\u2019d like me to focus on, and phrase all queries and comments with courtesy and professionalism. Reviewing a copyedit or proofread should be a painless and clear process, and that\u2019s what I deliver. If you're not sure which service you need or if it's not a service I can accommodate, please contact me anyway! I would love to hear more about your project to see what I can do, or connect you with another incredibly talented freelancer."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "services-section-title"
+  }, "Proofreading Novels"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "services-list"
+  }, "Working with PDFs using comments, and stamps, or on occasion, physical proof page."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "services-list"
+  }, "Reviewing text against the original manuscript or previous pass, making sure all corrections were made properly."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "services-list"
+  }, "Cold reading text and fixing any grammar or spelling issues, and querying anything that might need polishing."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "services-list"
+  }, "Double-checking style and layout consistency, facts, and timelines."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "services-list"
+  }, "Will return all projects under 100,000 words within 10 days.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "services-section-title"
+  }, "Copyediting Novels"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "services-list"
+  }, "Working with Word documents using track changes and comments"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "services-list"
+  }, "Reading text and fixing grammar/spelling issues"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "services-list"
+  }, "Confirming timelines and facts"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "services-list"
+  }, "Phrasing queries professionally for content that goes to Authors"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "services-list"
+  }, "Styling manuscripts in Word for InDesign layouts"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "services-list"
+  }, "Will return all projects under 100,000 words within 15 days.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    className: "services-section-title"
+  }, "Reviewing Graphic Novels"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "services-list"
+  }, "Reviewing text and art in layouts during any stage of the process"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "services-list"
+  }, "Cold reading, proofreading, checking art and facts"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "services-list"
+  }, "Advising on how to streamline projects (since graphic novels are complex!)"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", {
+    className: "services-list"
+  }, "Will return all projects under 320 pages within 10 days.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+    style: {
       textAlign: "center",
-      marginTop: "1rem",
+      margin: "3rem auto",
       fontSize: "calc(14px + 1vw)",
       color: "rgb(20,30,70)"
     }
-  }, "Please feel free to", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    id: "links",
-    style: {
-      textDecoration: "underline"
-    },
-    to: "/contact"
-  }, "contact me"), " ", "to discuss how I can contribute to your project's success!")));
+  }, "Please feel free to contact me to discuss how I can contribute to your project's success!"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_Form__WEBPACK_IMPORTED_MODULE_2__["default"], null)));
 };
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Services);
 
