@@ -72,7 +72,7 @@ nav > .nameDivContainer > .underline > img {
   /* text-align: center;
   align-items: center; */
   height: 100%;
-  animation: reveal 1.5s ease-in forwards;
+  animation: reveal 1s ease-in forwards;
   filter: brightness(10%) invert(100%);
 }
 
@@ -181,9 +181,7 @@ nav > .menuItems > *:hover {
   font-weight: 350;
   color: rgb(20, 30, 70);
   word-break: keep-all;
-  text-align: justify;
-  /* text-justify:; */
-  hyphens: none;
+  text-align: center;
 }
 
 .social-media-icons {
@@ -238,7 +236,7 @@ nav > .menuItems > *:hover {
   font-variant-caps: all-petite-caps;
   text-align: center;
   margin: 2rem auto 6px;
-  font-size: calc(16px + 2vw);
+  font-size: calc(18px + 2vw);
   letter-spacing: 2px;
   /* outline: 1px solid rgb(20, 30, 70); */
   padding: 0.4rem 6vw 0.6rem;

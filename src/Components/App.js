@@ -54,11 +54,9 @@ const App = (props) => {
   return (
     <div style={{ display: "flex", flexDirection: "column" }}>
       <NavBar />
-      {/* <Toolbar /> */}
       <div style={{ flexGrow: 1 }}>
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/about" element={<About />} /> */}
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
