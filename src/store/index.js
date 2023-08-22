@@ -1,6 +1,6 @@
 import { createStore, combineReducers, applyMiddleware } from "redux";
-import logger from "redux-logger";
-import thunk from "redux-thunk";
+// import logger from "redux-logger";
+// import thunk from "redux-thunk";
 import axios from "axios";
 
 const mainState = (state = [], action) => {
@@ -20,6 +20,9 @@ export const fetchMain = () => {
     dispatch({ type: "SET_MAIN_STATE", mainstate: response.data });
   };
 };
-const store = createStore(reducer, applyMiddleware(thunk, logger));
+const store = createStore(
+  reducer
+  // applyMiddleware(thunk, logger)
+);
 
 export default store;
