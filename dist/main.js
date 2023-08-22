@@ -20458,7 +20458,8 @@ const Icons = () => {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
     onClick: handleFacebookClick,
     rel: "noopener noreferrer",
-    alt: "Facebook Icon"
+    alt: "Facebook Icon",
+    "aria-label": "Link for Dawn Ryan on Facebook"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_icons_material_Facebook__WEBPACK_IMPORTED_MODULE_1__["default"], {
     style: {
       fontSize: 60
@@ -20467,7 +20468,8 @@ const Icons = () => {
     href: "https://www.linkedin.com/in/dawn-ryan-7357a81b/",
     target: "_blank",
     rel: "noopener noreferrer",
-    alt: "LinkedIn Icon"
+    alt: "LinkedIn Icon",
+    "aria-label": "Link for Dawn Ryan on Linked In"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_icons_material_LinkedIn__WEBPACK_IMPORTED_MODULE_2__["default"], {
     style: {
       fontSize: 60
@@ -20476,7 +20478,8 @@ const Icons = () => {
     href: "mailto:dawn.g.ryan@gmail.com",
     target: "_blank",
     rel: "noopener noreferrer",
-    alt: "Email Icon"
+    alt: "Email Icon",
+    "aria-label": "Link to email Dawn Ryan"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_mui_icons_material_Email__WEBPACK_IMPORTED_MODULE_3__["default"], {
     style: {
       fontSize: 60
