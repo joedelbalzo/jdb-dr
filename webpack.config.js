@@ -27,9 +27,8 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: [".js", ".jsx"], // Add other extensions if needed
+    extensions: [".js", ".jsx"],
     alias: {
-      // Add aliases if needed
       "@assets": path.resolve(__dirname, "src/assets"),
     },
   },
