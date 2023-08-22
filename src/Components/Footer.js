@@ -15,7 +15,7 @@ const Footer = () => {
     >
       © Copyright 2023 Dawn Ryan. Website designed by{" "}
       <a
-        href="http://www.joedelbalzo.com"
+        href="https://www.joedelbalzo.com"
         style={{ color: "inherit", textDecoration: "none" }}
         target="_blank"
         rel="noopener noreferrer"
