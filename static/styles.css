@@ -271,8 +271,7 @@ nav > .menuItems > *:hover {
 }
 .image-carousel:hover {
   transform: scale(1.03);
-  transition: transform 0.2s ease-in-out;
-  transition: box-shadow 0.4s ease-in-out;
+  transition: transform 0.2s ease-in-out, box-shadow 0.4s ease-in-out;
   /* cursor: pointer; */
   box-shadow: 3px 3px 3px rgba(20, 30, 70, 0.5);
 }
@@ -288,6 +287,14 @@ nav > .menuItems > *:hover {
   color: rgb(220, 240, 255);
   text-align: left;
   hyphens: auto;
+}
+
+.services-section-title:hover {
+  transform: scale(1.03);
+  transition: transform 0.1s ease-in-out, box-shadow 0.1s ease-in-out;
+  /* transition:  */
+  box-shadow: 4px 4px 4px rgba(20, 30, 70, 0.5);
+  cursor: default;
 }
 
 .services {
