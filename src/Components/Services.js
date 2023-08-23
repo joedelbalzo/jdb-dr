@@ -11,12 +11,12 @@ const Services = () => {
       </h1>
       {/* <h3 className="page-subheader">Here's a list of services I offer.</h3> */}
       <div className="services">
-        <span style={{ fontWeight: 350 }}>
+        <div style={{ fontWeight: 350, textAlign: "center" }}>
           I follow the campsite rule with every project I take on:{" "}
           <span style={{ fontWeight: 400 }}>Leave it better than you found it!</span>{" "}
-        </span>
+        </div>
         <br />
-        <br />
+
         <div style={{ textAlign: "center" }}>
           Using your guidance, I pay attention to everything you’d like me to focus on, and phrase
           all queries and comments with courtesy and professionalism. Reviewing a copyedit or
