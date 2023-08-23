@@ -20301,7 +20301,7 @@ const Footer = () => {
       color: "rgba(20, 30, 70, .5)"
     }
   }, "\xA9 Copyright 2023 Dawn Ryan. Website designed by", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("a", {
-    href: "http://www.joedelbalzo.com",
+    href: "https://www.joedelbalzo.com",
     style: {
       color: "inherit",
       textDecoration: "none"
@@ -20927,15 +20927,16 @@ const Services = () => {
     }
   }, "SERVICES"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     className: "services"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     style: {
-      fontWeight: 350
+      fontWeight: 350,
+      textAlign: "center"
     }
   }, "I follow the campsite rule with every project I take on:", " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("span", {
     style: {
       fontWeight: 400
     }
-  }, "Leave it better than you found it!"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
+  }, "Leave it better than you found it!"), " "), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
     style: {
       textAlign: "center"
     }
