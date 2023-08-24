@@ -1,6 +1,6 @@
 import React from "react";
 import { FadeComponent } from "./FadeComponent";
-
+import { Link } from "react-router-dom"
 import { useForm, ValidationError } from "@formspree/react";
 
 //notes - create a thanks for your submission page for redirecting. set timeout there for 4 seconds to redirect home
