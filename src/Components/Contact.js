@@ -8,7 +8,16 @@ import { useForm, ValidationError } from "@formspree/react";
 function Contact() {
   const [state, handleSubmit] = useForm("mgejadwz");
   if (state.succeeded) {
-    return <div className="after-submit">Thank you! I'll be in touch shortly.</div>;
+    return (
+      <div className="after-submit">
+        Thank you! I'll be in touch shortly.
+        <br />
+        <br />
+        <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+          Home
+        </Link>
+      </div>
+    );
   }
   return (
     <FadeComponent>
