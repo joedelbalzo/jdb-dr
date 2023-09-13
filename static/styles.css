@@ -366,6 +366,7 @@ nav > .menuItems > *:hover {
   box-shadow: none;
   outline: none;
   border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   padding: 0.5rem;
   margin: 0.5rem auto;
   width: 90%;

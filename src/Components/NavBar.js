@@ -54,7 +54,7 @@ const NavBar = () => {
             </Link>
           </div>
           <div className="underline">
-            <img className="reveal-image" src={redUnderline} />
+            <img className="reveal-image" alt="dawn ryan underline" src={redUnderline} />
           </div>
         </div>
 

@@ -4,19 +4,19 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 
 const Icons = () => {
-  const handleFacebookClick = (e) => {
-    e.preventDefault();
-    // const appUrl = "fb://dawn.ryan.908/3704996";
-    // window.open(appUrl, "_blank");
-    setTimeout(() => {
-      window.open("https://www.facebook.com/dawn.ryan.908", "_blank");
-    }, 500);
-  };
+  // const handleFacebookClick = (e) => {
+  //   e.preventDefault();
+  //   // const appUrl = "fb://dawn.ryan.908/3704996";
+  //   // window.open(appUrl, "_blank");
+  //   setTimeout(() => {
+  //     window.open("https://www.facebook.com/dawn.ryan.908", "_blank");
+  //   }, 500);
+  // };
 
   return (
     <div className="social-media-icons">
       <a
-        onClick={handleFacebookClick}
+        href="https://www.facebook.com/dawn.ryan.908"
         rel="noopener noreferrer"
         alt="Facebook Icon"
         aria-label="Link for Dawn Ryan on Facebook"
