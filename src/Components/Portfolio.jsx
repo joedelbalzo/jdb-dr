@@ -2,6 +2,7 @@ import React, { useRef, useState, useEffect } from "react";
 import { FadeComponent } from "./FadeComponent";
 import { motion, useAnimation } from "framer-motion";
 import { useWindowSize } from "@react-hook/window-size";
+import Icons from "./Icons";
 
 import { yaImages, mgImages, gnImages } from "./PortfolioImageData";
 
@@ -106,6 +107,7 @@ const Portfolio = () => {
           ))}
         </motion.div>
       </div>
+      <Icons />
     </FadeComponent>
   );
 };

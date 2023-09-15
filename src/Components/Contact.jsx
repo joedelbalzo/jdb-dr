@@ -1,7 +1,8 @@
 import React from "react";
 import { FadeComponent } from "./FadeComponent";
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import { useForm, ValidationError } from "@formspree/react";
+import Icons from "./Icons";
 
 //notes - create a thanks for your submission page for redirecting. set timeout there for 4 seconds to redirect home
 
@@ -38,6 +39,7 @@ function Contact() {
         </button>
         <h3 className="page-subheader">or email me at dawn.g.ryan@gmail.com</h3>
       </form>
+      <Icons />
     </FadeComponent>
   );
 }

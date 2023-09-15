@@ -61,7 +61,7 @@ const App = (props) => {
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <Icons />
+        {/* <Icons /> */}
       </div>
       <ScrollTop {...props}>
         <Fab

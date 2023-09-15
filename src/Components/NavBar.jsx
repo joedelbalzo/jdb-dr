@@ -50,7 +50,18 @@ const NavBar = () => {
         <div className="nameDivContainer">
           <div className="name">
             <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
-              Dawn Ryan
+              <h1
+                style={{
+                  fontSize: "inherit",
+                  fontFamily: "inherit",
+                  fontWeight: "inherit",
+                  // color: "inherit",
+                  margin: "inherit",
+                  padding: "inherit",
+                }}
+              >
+                Dawn Ryan
+              </h1>
             </Link>
           </div>
           <div className="underline">
