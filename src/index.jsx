@@ -9,7 +9,7 @@ const root = createRoot(document.querySelector("#root"));
 
 root.render(
   <Provider store={store}>
-    <BrowserRouter>
+    <BrowserRouter basename={"/"}>
       <App />
     </BrowserRouter>
   </Provider>
