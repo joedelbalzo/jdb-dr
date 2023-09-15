@@ -22,5 +22,5 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"),
     },
   },
-  base: "/jdb-dr",
+  base: process.env.NODE_ENV === "production" ? "/jdb-dr/" : "/",
 });
