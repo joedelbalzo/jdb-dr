@@ -71,7 +71,7 @@ const Services = () => {
 
         <motion.div
           ref={ref1}
-          initial={{ opacity: 0, y: "20px" }}
+          initial={{ opacity: 0, y: "50px" }}
           animate={controls1}
           transition={transition}
         >
@@ -98,7 +98,7 @@ const Services = () => {
         </motion.div>
         <motion.div
           ref={ref2}
-          initial={{ opacity: 0, y: "20px" }}
+          initial={{ opacity: 0, y: "50px" }}
           animate={controls2}
           transition={transition}
         >
@@ -122,7 +122,7 @@ const Services = () => {
 
         <motion.div
           ref={ref3}
-          initial={{ opacity: 0, y: "20px" }}
+          initial={{ opacity: 0, y: "50px" }}
           animate={controls3}
           transition={transition}
         >
@@ -147,7 +147,7 @@ const Services = () => {
         </div> */}
         <motion.div
           ref={ref4}
-          initial={{ opacity: 0, y: "20px" }}
+          initial={{ opacity: 0, y: "50px" }}
           animate={controls4}
           transition={transition}
         >

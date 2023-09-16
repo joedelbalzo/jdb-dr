@@ -19,7 +19,7 @@ const Home = () => {
   const transition = {
     type: "spring",
     damping: 10,
-    stiffness: 100,
+    stiffness: 50,
   };
 
   useEffect(() => {
@@ -33,7 +33,7 @@ const Home = () => {
           }
         });
       },
-      { threshold: 0.4, rootMargin: "0px 0px 0px 0px" }
+      { threshold: 0.2, rootMargin: "0px 0px 50px 0px" }
     );
 
     observer.observe(ref1.current);
@@ -58,7 +58,7 @@ const Home = () => {
       </div>
       <motion.div
         ref={ref1}
-        initial={{ opacity: 0, y: "20px" }}
+        initial={{ opacity: 0, y: "200px" }}
         animate={controls1}
         transition={transition}
       >
@@ -66,7 +66,7 @@ const Home = () => {
       </motion.div>
       <motion.div
         ref={ref2}
-        initial={{ opacity: 0, y: "20px" }}
+        initial={{ opacity: 0, y: "40px" }}
         animate={controls2}
         transition={transition}
       >
