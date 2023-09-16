@@ -126,7 +126,7 @@ const Services = () => {
           animate={controls3}
           transition={transition}
         >
-          <div className="services-section-title">Reviewing Graphic Novels.</div>
+          <div className="services-section-title">Reviewing Graphic Novels</div>
           <ul style={{ margin: 20, padding: 0 }}>
             <li className="services-list">
               Reviewing text and art in layouts during any stage of the process.
