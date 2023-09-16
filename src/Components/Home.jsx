@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import Icons from "./Icons";
 
 const Home = () => {
+  console.log("process env", process.env.NODE_ENV);
   const controls = useAnimation();
   const controls1 = useAnimation();
   const controls2 = useAnimation();
